@@ -27,8 +27,7 @@ while True:
     if (screen_height) * i > scroll_height:
         break
 
-webpage = r.get(url, headers= user_agent)
-soup = bs(webpage.text, "html.parser")
+soup = bs(driver.page_source, "html.parser")
 
 rest_names=[]
 cuisines= []
