@@ -8,3 +8,9 @@ user_agent = {"User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb
 webpage = r.get(url, headers= user_agent)
 soup = bs(webpage.content, "html.parser")
 
+name=[]
+cuisine= []
+rating= []
+price_for_one = []
+
+
