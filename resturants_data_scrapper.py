@@ -36,4 +36,5 @@ cuisines= []
 rating= []
 price_per_person = []
 
+parent_div = soup.find_all("div", attrs= "jumbo-tracker")
 
