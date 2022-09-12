@@ -38,3 +38,9 @@ price_per_person = []
 
 parent_div = soup.find_all("div", attrs= "jumbo-tracker")
 
+for child in parent_div:
+    name_tag = child.find("h4")
+    if name_tag != None:
+        rest_names.append(name_tag.get_text())
+    
+            
