@@ -8,7 +8,9 @@ import time
 url = "https://www.zomato.com/jabalpur/restaurants"
 user_agent = {"User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"}
 
-driver = webdriver.Edge(executable_path=driver_path)
+options = webdriver.EdgeOptions()
+options.add_experimental_option('excludeSwitches', ['enable-logging'])
+driver = webdriver.Edge(executable_path=driver_path, options= options)
 driver.get(url)
 
 time.sleep(2)  # Suspends the webpage for 2 seconds
