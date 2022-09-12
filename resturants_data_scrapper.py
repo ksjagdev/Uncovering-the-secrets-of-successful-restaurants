@@ -13,8 +13,8 @@ options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Edge(executable_path=driver_path, options= options)
 driver.get(url)
 
-time.sleep(2)  # Suspends the webpage for 2 seconds
-scroll_pause_time = 3  # Time interval between two consecutive scrolls
+time.sleep(1)  # Suspends the webpage for 1 seconds
+scroll_pause_time = 2  # Time interval between two consecutive scrolls
 screen_height = driver.execute_script("return window.screen.height;")  # extract the screen height of the webpage
 i = 1
 
