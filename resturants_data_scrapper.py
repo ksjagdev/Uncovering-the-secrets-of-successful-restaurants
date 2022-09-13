@@ -36,14 +36,24 @@ cuisines= []
 rating= []
 price_per_person = []
 
-parent_div = soup.find_all("div", attrs= "jumbo-tracker")
-for child in parent_div:
-    name_tag = child.find("h4")
-    if name_tag != None:
-        rest_names.append(name_tag.get_text())
-        
-        rating_tag = name_tag.parent.div.div.div.div.div.div.text
-        rating.append(rating_tag)
+name_tags = soup.find_all("h4")
 
+for rest_name in name_tags[:len(name_tags)-1]:
+
+    rest_names.append(rest_name.text)
+
+    rating_tag = rest_name.parent.div.div.div.div.div.div.text
+    rating.append(rating_tag)
+
+    price_tag = rest_name.parent.next_sibling.p.next_sibling.text
+    price_per_person.append(price_tag)
+
+    cuisine_tag = rest_name.parent.next_sibling.p.text
+    cuisines.append(cuisine_tag)
+
+
+print(len(rest_names))
+print(len(cuisines))
+print(len(rating))
+print(len(price_per_person))
     
-driver.close()
