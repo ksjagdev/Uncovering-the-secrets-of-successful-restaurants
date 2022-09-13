@@ -58,9 +58,11 @@ for rest_name in name_tags[:len(name_tags)-1]:
     cuisine_tag = rest_name.parent.next_sibling.p.text
     cuisines.append(cuisine_tag)
 
+restaurants_df = pd.DataFrame({"name": rest_names, "cuisines": cuisines, "rating": rating, "price_per_person": price_per_person})
 
 print(len(rest_names))
 print(len(cuisines))
 print(len(rating))
 print(len(price_per_person))
     
+restaurants_df.to_csv("./Dataset/jabalpur_restaurants.csv")
