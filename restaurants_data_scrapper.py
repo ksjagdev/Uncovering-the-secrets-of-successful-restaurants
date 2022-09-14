@@ -7,13 +7,12 @@ import time
 
 check_dir()  # This function is responsible for checking and changing the working directory of the project
 
-url = "https://www.zomato.com/jabalpur/restaurants"
+homepage_url = "https://www.zomato.com/jabalpur/restaurants"
 user_agent = {"User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"}
 
 options = webdriver.EdgeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Edge(executable_path=driver_path, options= options)
-driver.get(url)
 
 time.sleep(1)  # Suspends the webpage for 1 seconds
 scroll_pause_time = 2  # Time interval between two consecutive scrolls
@@ -30,7 +29,9 @@ while True:
     # Break the loop when the height to scroll to is larger than the total scroll height
     if (screen_height) * i > scroll_height:
         break
+driver.get(homepage_url)
 
+#     scroll_height = driver.execute_script("return document.body.scrollHeight;")
 soup = bs(driver.page_source, "html.parser")
 
 rest_names=[]
