@@ -2,15 +2,10 @@ import requests as r
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 from path import driver_path, check_dir
-from pathlib import Path
 from selenium import webdriver
 import time
-import os 
 
 check_dir()  # This function is responsible for checking and changing the working directory of the project
-
-if not os.path.exists("./Dataset"): #creates a directory for downloaded data if it does'nt exists
-    Path("./Dataset").mkdir(parents=True, exist_ok=True)
 
 url = "https://www.zomato.com/jabalpur/restaurants"
 user_agent = {"User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"}
