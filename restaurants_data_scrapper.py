@@ -32,14 +32,14 @@ while True:
 driver.get(homepage_url)
 
 #     scroll_height = driver.execute_script("return document.body.scrollHeight;")
-soup = bs(driver.page_source, "html.parser")
+homepage_soup = bs(driver.page_source, "html.parser")
 
 rest_names=[]
 cuisines= []
 rating= []
 price_per_person = []
+name_tags = homepage_soup.find_all("h4")
 
-name_tags = soup.find_all("h4")
 
 for rest_name in name_tags[:len(name_tags)-1]:
 
