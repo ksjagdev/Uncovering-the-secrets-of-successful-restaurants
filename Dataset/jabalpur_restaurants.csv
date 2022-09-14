@@ -1,95 +1,364 @@
 ,name,cuisines,rating,price_per_person
-0,Popular Fresh Momos 'N' More,"Chinese, Fast Food, Momos, Burger, Beverages, Sichuan",4.0,₹150 for one
-1,Yo Pizzariya,"Pizza, Fast Food, Beverages, Shake, Desserts",3.7,₹150 for one
-2,New Vasu Restaurant,"North Indian, Chinese, Fast Food, Street Food, Beverages",4.0,₹150 for one
-3,Hotel Shree Ras,North Indian,3.9,₹150 for one
-4,The Tandoor House,"North Indian, Mughlai",3.9,₹150 for one
-5,Jharoka Restaurant The Arihant Palace,"North Indian, Mughlai, Chinese, Beverages, Desserts",4.1,₹150 for one
-6,StarDrinks -Tharra Bar,"Pizza, Sandwich, Burger, Momos, Beverages, Shake, Fast Food",3.5,₹150 for one
-7,Sai Chinese Centre,"Chinese, South Indian, Fast Food, Sichuan",3.8,₹150 for one
-8,Behrouz Biryani,"Biryani, Kebab, Hyderabadi, Lucknowi",4.3,₹150 for one
-9,La Pino'z Pizza,"Pizza, Fast Food",4.1,₹150 for one
-10,Baskin Robbins,"Ice Cream, Desserts, Beverages",4.4,₹150 for one
-11,Wang Chinese Cuisine,"Chinese, Seafood, Sichuan",4.0,₹150 for one
-12,Ishvit Snacks,"North Indian, South Indian, Street Food",4.6,₹150 for one
-13,The Biryani Life,"Biryani, Kebab, Hyderabadi, Lucknowi",4.2,₹150 for one
-14,Lakkhe Di Hatti Punjabi Rasoi,"North Indian, Chinese",3.9,₹150 for one
-15,Faasos - Wraps & Rolls,"Rolls, Wraps, Fast Food",4.0,₹150 for one
-16,Sweet Truth - Cake and Desserts,"Desserts, Bakery",3.9,₹150 for one
-17,LunchBox - Meals and Thalis,North Indian,4.2,₹150 for one
-18,Aroma Restaurant- Hotel Midtown,"North Indian, Chinese, Mughlai, Sandwich, Desserts, Beverages",4.0,₹150 for one
-19,The Good Bowl,"North Indian, Pasta, Italian",4.1,₹150 for one
-20,Desi Tadka,"North Indian, Chinese",3.9,₹150 for one
-21,Tava Veg Family Restaurant,"North Indian, Chinese, Fast Food, South Indian, Desserts, Beverages",3.6,₹150 for one
-22,Maa Shakti Bhojanalya,North Indian,4.0,₹150 for one
-23,The Grill,"North Indian, Chinese, Continental, Mughlai, Kebab, Biryani, Desserts, Sichuan",4.1,₹150 for one
-24,Traffic Jam Food Junction,"North Indian, South Indian, Mughlai, Chinese, Fast Food, Continental, Desserts, Beverages",3.9,₹150 for one
-25,Food Planet,"Fast Food, Street Food, Rajasthani, North Indian, Beverages, Desserts, Shake, Chinese",3.7,₹150 for one
-26,House Of Blends,"Cafe, Continental, Chinese, North Indian, Fast Food, Coffee, Desserts, Beverages",3.8,₹150 for one
-27,Tandoori Nights,"Mughlai, North Indian, Chinese, Biryani",3.1,₹150 for one
-28,Hotel BK Castle,"North Indian, Chinese, Desserts, Beverages",3.7,₹150 for one
-29,Hotel Roopali Inn,"North Indian, Beverages, Fast Food",3.6,₹150 for one
-30,Express Thali By Rajwada,"North Indian, Rajasthani, Mithai",3.9,₹150 for one
-31,Crystal,"North Indian, Chinese, Italian, Desserts, Beverages",3.8,₹150 for one
-32,Desi Twist,"Fast Food, Street Food",4.2,₹150 for one
-33,Munna Hotel Damoh Naka,North Indian,3.5,₹100 for one
-34,Hanuman Lassi & Juice Center,"Beverages, Juices, Shake",3.8,₹100 for one
-35,Bhatia Egg Shop,"Street Food, Fast Food",3.9,₹100 for one
-36,Badkul Restaurant,"North Indian, Chinese, Fast Food, South Indian, Desserts, Beverages",3.9,₹100 for one
-37,Any Time Meals,"North Indian, Chinese",3.8,₹100 for one
-38,Momo Colling,"Momos, Chinese, Fast Food",3.6,₹100 for one
-39,Chawlas Restaurant,"North Indian, Chinese, Mughlai, Kebab, Biryani, Beverages, Seafood, Desserts",4.0,₹100 for one
-40,Jai Bhawani Tasty Chaat Bhandar,"Street Food, South Indian, Fast Food, Chinese",3.5,₹100 for one
-41,Rounak Bhel Puri,Street Food,4.2,₹100 for one
-42,Sheesha Sky Lounge,"North Indian, Mughlai, Kebab, Chinese, Biryani, Sichuan",3.7,₹100 for one
-43,Parampara Veg Restaurant,"North Indian, Chinese, Fast Food, Shake",3.8,₹100 for one
-44,Hot Pot Chicken And Biryani Center,Biryani,4.0,₹100 for one
-45,Rolls Valley,"Rolls, Burger, Momos, Fast Food, Chinese, Sichuan",4.0,₹150 for one
-46,Hamza Chicken & Fish Point,"North Indian, Street Food",-,₹150 for one
-47,Hyderabadi Chicken Biryani,"Biryani, Mughlai",4.0,₹150 for one
-48,Agrawal Sweets,"Mithai, Desserts",4.1,₹150 for one
-49,New Nayab Biryani Center,North Indian,4.0,₹150 for one
-50,Chaat Chatore,"South Indian, Chinese, North Indian, Street Food, Fast Food, Beverages",3.6,₹150 for one
-51,Prayag Restaurant,"South Indian, Chinese, Sichuan",4.1,₹150 for one
-52,Gourmet Ice Cream Cakes By Baskin Robbins,"Bakery, Ice Cream, Desserts",4.0,₹150 for one
-53,Olives Restaurant,"North Indian, Chinese, Biryani, Fast Food, Sandwich, Beverages",3.8,₹150 for one
-54,Hotel Rishi Regency,"North Indian, Chinese, Fast Food, Sichuan",3.9,₹150 for one
-55,Hashtag Cakes,"Bakery, Desserts",3.7,₹150 for one
-56,Kulcha Da Culture,"North Indian, BBQ",3.8,₹150 for one
-57,Dilliwala's,"North Indian, Chinese, Fast Food, Rolls, Sichuan",4.0,₹250 for one
-58,Megh Restaurant,"North Indian, Mughlai, Chinese",3.9,₹250 for one
-59,Deepak Momos,"Momos, Street Food, Beverages",-,₹250 for one
-60,Jain Homemade Cakes,Bakery,-,₹250 for one
-61,Shawarma & Grill,Lebanese,4.3,₹250 for one
-62,"Indore Sweets, Namkeen & Bakery","Mithai, Street Food",4.2,₹250 for one
-63,Momo Colling Express,"Momos, Chinese, Sichuan",3.6,₹250 for one
-64,Food Feast,Street Food,-,₹250 for one
-65,Om Food Junction,"North Indian, Fast Food",-,₹250 for one
-66,Chai Shai Bar,Beverages,3.3,₹250 for one
-67,ShreeJi Falahar Corner,Street Food,4.0,₹250 for one
-68,Chai Ka Punchnama,"Beverages, Street Food, Fast Food",3.3,₹250 for one
-69,Babu Chaurasiya Pan,Paan,4.3,₹50 for one
-70,Shri Chinese Center,Chinese,4.1,₹50 for one
-71,Gupta Sweet Mart,"Mithai, Street Food",3.9,₹50 for one
-72,Dada Tiffin Service,North Indian,-,₹50 for one
-73,Thaali Express,North Indian,3.9,₹50 for one
-74,Cafe Magicana,Fast Food,4.4,₹50 for one
-75,V Cafe & Restaurant,"Fast Food, Chinese, Pizza, Beverages",4.0,₹50 for one
-76,Karnikaaza Party Room & Lounge ,"Fast Food, Chinese, Beverages",-,₹50 for one
-77,Hira Cakes,Bakery,4.3,₹50 for one
-78,Happiness,Desserts,-,₹50 for one
-79,Yaari Risto,"North Indian, Fast Food, Chinese",3.7,₹50 for one
-80,Diet Guru,"Healthy Food, Beverages",-,₹50 for one
-81,Spice Master,"North Indian, Biryani, Kebab",3.9,₹150 for one
-82,Kanha Fast Food Center,"North Indian, Chinese",-,₹150 for one
-83,By Fa'Ar,"Biryani, Fast Food",-,₹150 for one
-84,Sai Momos Centre,"Momos, Fast Food, Street Food",3.6,₹150 for one
-85,Nawab - The Chaat House,"Fast Food, Beverages, Desserts, Street Food, Juices, Sandwich, Burger, Ice Cream",3.3,₹150 for one
-86,Gabbar Da Dhaba,"North Indian, Chinese, Fast Food",3.7,₹150 for one
-87,Zaika Restaurant,"North Indian, Kebab, Fast Food, Biryani, Beverages",4.0,₹150 for one
-88,The Belgian Waffle Co.,"Waffle, Pancake, Desserts, Beverages, Ice Cream",4.4,₹150 for one
-89,Zaika Junction,"North Indian, Chinese, Mughlai, Fast Food",3.8,₹150 for one
-90,The Champaran Kitchen,"North Indian, Mughlai, Chinese, Biryani",3.7,₹150 for one
-91,Cozy The Sky Lounge,"North Indian, Chinese, Mughlai",3.9,₹150 for one
-92,Cafe Conection,"Chinese, Fast Food, Street Food",3.5,₹150 for one
-93,Bindaas Chai Bar,"Fast Food, Momos, Beverages, Tea, Coffee, Shake",4.0,₹100 for one
+0,Darbar Veg Restaurant,"North Indian, South Indian, Ice Cream, Desserts",3.9,₹200 for one
+1,Govinda's Fast Food Centre,"Fast Food, Pizza, Sandwich",4.1,₹200 for one
+2,Kamling Chinese Restaurant,"Chinese, Asian, Seafood",3.9,₹200 for one
+3,Bun In A Million,"Fast Food, Burger, Street Food, Desserts, Beverages",4.2,₹200 for one
+4,Snack Attack,"Fast Food, Pizza, Rolls, Sandwich, Beverages",4.0,₹200 for one
+5,Badkul Restaurant,"North Indian, Chinese, Fast Food, South Indian, Desserts, Beverages",3.9,₹200 for one
+6,The Cake Company,"Bakery, Sandwich, Street Food, Fast Food, Rolls, Chinese, Beverages, North Indian",4.1,₹200 for one
+7,Dwarka Sweets,"Mithai, Street Food",4.2,₹200 for one
+8,Shivam's Pizza,"Pizza, Fast Food",3.9,₹200 for one
+9,Popular Fresh Momos 'N' More,"Chinese, Fast Food, Momos, Burger, Beverages, Sichuan",3.7,₹150 for one
+10,La Pino'z Pizza,"Pizza, Fast Food",4.1,₹150 for one
+11,Indian Coffee House,"North Indian, South Indian, Fast Food, Chinese, Ice Cream, Beverages, Mughlai, Kebab",4.1,₹150 for one
+12,Burger Hut,"Burger, Fast Food, Beverages",4.2,₹150 for one
+13,Pizza Hut,"Pizza, Fast Food, Desserts, Beverages",3.9,₹150 for one
+14,New Pawar Restaurant,"North Indian, Chinese",4.1,₹150 for one
+15,Bombay Da Pizza Centre,"Fast Food, Chinese, Pizza, Sandwich, Burger",3.5,₹150 for one
+16,RH Chicken Point,"North Indian, Fast Food",4.1,₹150 for one
+17,Naidu's Dilli Ki Gali Parathe Wali,North Indian,4.2,₹150 for one
+18,Yo Pizzariya,"Pizza, Fast Food, Beverages, Shake, Desserts",3.7,₹150 for one
+19,Hotel Shree Ras,North Indian,3.9,₹150 for one
+20,Burger Singh - Big Punjabi Burgers,"Burger, Fast Food",4.2,₹150 for one
+21,Patel's Fast Food & Family Restaurant,"South Indian, Chinese",3.7,₹100 for one
+22,KFC,"Burger, Fast Food, Biryani, Desserts, Beverages",4.0,₹100 for one
+23,Munna Hotel,North Indian,3.1,₹100 for one
+24,Munna Hotel Damoh Naka,North Indian,3.5,₹100 for one
+25,Asanzo,"North Indian, South Indian, Fast Food, Street Food, Chinese, Beverages",4.1,₹100 for one
+26,Royal Food Factory,"Chinese, Fast Food, Beverages, Pizza",3.8,₹100 for one
+27,Riyaz Hotel - 1953,"Mughlai, North Indian",4.0,₹100 for one
+28,RH Chicken Point By Riyaz Hotel,"North Indian, Fast Food",4.1,₹100 for one
+29,Chicago Delight's Pizza & Grillz,"Pizza, Fast Food, Pasta, Beverages",3.4,₹100 for one
+30,Sai Chinese Centre,"Chinese, South Indian, Fast Food, Sichuan",3.8,₹100 for one
+31,Pawar's Restaurant,"South Indian, Chinese, Fast Food, Beverages",3.8,₹100 for one
+32,The Oven Classics,"Bakery, Desserts, Fast Food, Wraps, Pasta, Italian, Rolls, Burger",4.2,₹100 for one
+33,Jharoka Restaurant The Arihant Palace,"North Indian, Mughlai, Chinese, Beverages, Desserts",4.1,₹250 for one
+34,Chai Sutta Bar,"Tea, Coffee, Fast Food, Pizza, Beverages",3.9,₹250 for one
+35,Jumbo Pizza,"Pizza, Fast Food, Beverages",4.1,₹250 for one
+36,Hotel National Biryani,"North Indian, Biryani, Fast Food, Chinese, Mughlai",3.5,₹250 for one
+37,Fountain Spot,"Chinese, Fast Food",4.4,₹250 for one
+38,Shri Munna Hotel,North Indian,3.3,₹250 for one
+39,Pizza 49,Pizza,3.3,₹250 for one
+40,Munna Hotel,"North Indian, Mughlai",3.2,₹250 for one
+41,Grill Inn,"Fast Food, Pizza, Burger, Rolls, Wraps, Desserts, Beverages",3.9,₹250 for one
+42,New Natkhat Restaurant,"North Indian, Biryani",4.1,₹250 for one
+43,Bharosa On Samosa,Street Food,4.4,₹250 for one
+44,Hotel Al- Razzaq Family Restaurant,"North Indian, Mughlai, Fast Food, Chinese, Beverages",3.9,₹250 for one
+45,Gupta Chaat & Fast Food B-1,"Street Food, South Indian",4.2,₹100 for one
+46,Best Choice,"Burger, Sandwich, Fast Food, Beverages",4.4,₹100 for one
+47,Z-7 Food,"Chinese, Sandwich, Fast Food",4.1,₹100 for one
+48,Celebrations The Food Junction,"North Indian, Fast Food, Chinese",3.6,₹100 for one
+49,Shri Siddh Sai Chinese Center,"Chinese, South Indian, Fast Food, Street Food, Sichuan",3.6,₹100 for one
+50,Express Thali By Rajwada,"North Indian, Rajasthani, Mithai",3.9,₹100 for one
+51,New Hotel Haji Basheer,"Fast Food, Mughlai, Biryani, Chinese, Street Food",3.8,₹100 for one
+52,New 4 Seasons Bakery & Cafe,"Continental, Pizza, Fast Food, Desserts, Beverages",4.1,₹100 for one
+53,Cheesy Bites,"Burger, Pizza, Sandwich, Fast Food, Beverages",3.6,₹100 for one
+54,Friends Corner,"Fast Food, Chinese, Sichuan",4.2,₹100 for one
+55,Hyderabad House,"Biryani, North Indian",3.8,₹100 for one
+56,99 Pancakes,"Waffle, Desserts, Beverages",4.4,₹100 for one
+57,The Chai Square,"Fast Food, Street Food, Chinese, South Indian, Beverages, Shake, Sichuan",4.0,₹150 for one
+58,Sai Masala Dosa & Chinese Restaurant,"South Indian, Chinese, Fast Food",3.7,₹150 for one
+59,Hira Sweets & Bakery,"Bakery, Desserts",3.6,₹150 for one
+60,Traffic Jam Food Junction,"North Indian, South Indian, Mughlai, Chinese, Fast Food, Continental, Desserts, Beverages",3.9,₹150 for one
+61,Nanking Chinese Restaurant,"Chinese, Seafood, Sichuan",3.9,₹150 for one
+62,Spicy Bite's,"North Indian, Chinese, Fast Food, Momos, Pizza, Rolls, Desserts, Beverages",4.1,₹150 for one
+63,The Momo's Factory,"Chinese, Momos, Fast Food, Beverages, North Indian",3.7,₹150 for one
+64,Urban Tadka,"North Indian, Chinese",3.7,₹150 for one
+65,Desi Twist,"Fast Food, Street Food",4.2,₹150 for one
+66,New Indian Coffee House,"South Indian, Chinese, North Indian, Fast Food, Beverages",3.4,₹150 for one
+67,The Smok'en Bowl,"North Indian, Biryani, Chinese",3.9,₹150 for one
+68,Smart Street Food Point,"South Indian, Chinese, Sichuan",4.3,₹150 for one
+69,Wang Chinese Cuisine,"Chinese, Seafood, Sichuan",4.0,₹200 for one
+70,Gopal Ji,"Mithai, North Indian, Street Food, Desserts",4.0,₹200 for one
+71,Moon Light Family Multicuisine Restaurant,"North Indian, Chinese, Mughlai, Burger, Fast Food, Beverages",3.4,₹200 for one
+72,Khopcha Restaurant,"North Indian, Chinese, Fast Food",4.0,₹200 for one
+73,Abhinandan Veg Restaurant,North Indian,4.0,₹200 for one
+74,The Paneer Junction,North Indian,3.9,₹200 for one
+75,Badkul Sweets,"Mithai, Street Food",4.4,₹200 for one
+76,The Fit Kitchen Co.,"Healthy Food, Salad, Sandwich, Fast Food, Beverages",4.0,₹200 for one
+77,One Bite,"Pizza, Fast Food, Desserts, Beverages",3.9,₹200 for one
+78,Behrouz Biryani,"Biryani, Kebab, Hyderabadi, Lucknowi",4.3,₹200 for one
+79,House Of Blends,"Cafe, Fast Food, Coffee, Beverages, Shake",3.9,₹200 for one
+80,Megh Restaurant,"North Indian, Mughlai, Chinese",3.9,₹200 for one
+81,Kaka Dabeli,Street Food,4.3,₹50 for one
+82,Dubey Bhojanalaya,North Indian,3.8,₹50 for one
+83,Moti Mahal Delux - Tandoori Trail,"North Indian, Mughlai, Chinese, Desserts, Beverages, Rajasthani, Fast Food, Biryani",3.9,₹50 for one
+84,Cake Parlour,"Bakery, Desserts",4.0,₹50 for one
+85,Heera Stores,Bakery,3.9,₹50 for one
+86,Olympus Cafe & Juice Hub,"Chinese, Fast Food, Beverages, Desserts, Sichuan",3.8,₹50 for one
+87,The Cake Wala,"Bakery, Desserts",4.0,₹50 for one
+88,Jawahar Momos King,"Momos, Chinese, Fast Food",3.8,₹50 for one
+89,Burger N Sons,"Burger, Rolls, Fast Food, Street Food, Beverages",4.0,₹50 for one
+90,Subway,"Healthy Food, Fast Food, Sandwich, Salad, Beverages, Wraps",4.0,₹50 for one
+91,Fit N Lean,"Fast Food, Salad, Wraps, Beverages",4.1,₹50 for one
+92,Popular Fresh Momos 'N' More,"Fast Food, Burger, Pizza, Sichuan",3.5,₹50 for one
+93,Dal Chini,"North Indian, Continental, Chinese, Mughlai, Seafood, Beverages, Desserts, Sichuan",4.0,₹200 for one
+94,Hira Cakes 'N' Cookies,Bakery,3.6,₹200 for one
+95,Navnita Restaurant,"North Indian, Chinese, Desserts, Ice Cream, Beverages",4.0,₹200 for one
+96,Nature's Tavern,"Coffee, Shake, Beverages",4.4,₹200 for one
+97,Rasna Buzz - Food Court,"Beverages, North Indian, South Indian, Chinese, Fast Food, Momos, Sichuan",4.0,₹200 for one
+98,Jagdish Restaurants,North Indian,3.7,₹200 for one
+99,Oven's Fresh By Hira,"Desserts, Mithai",3.6,₹200 for one
+100,Jai Stores,"Fast Food, Sandwich",4.2,₹200 for one
+101,Desi Chulha,North Indian,4.2,₹200 for one
+102,Hotel Manmohan,"North Indian, Chinese",3.7,₹200 for one
+103,Old School Cafe,"Chinese, Fast Food, Pizza, Sandwich, Street Food, Desserts, Beverages",3.9,₹200 for one
+104,RB Cafe,"Fast Food, Pasta, North Indian, Street Food, Beverages",4.0,₹200 for one
+105,The Chocolate Story,"North Indian, Fast Food, Mexican, Sandwich, Pizza, Desserts, Beverages",4.0,₹200 for one
+106,Chandrakala Sweets,"Mithai, Street Food",4.2,₹200 for one
+107,Nice Cafe & Restaurant,"North Indian, South Indian, Chinese, Fast Food, Ice Cream, Desserts, Beverages, Shake",3.7,₹200 for one
+108,Pride By Samrat - The Kitchen,"North Indian, Chinese, Mughlai, Seafood, Desserts, Beverages",3.9,₹200 for one
+109,Dalurams Sweets And Namkeens,"Mithai, Desserts",3.8,₹200 for one
+110,Saheb's Food Junction,"North Indian, Seafood, Biryani",3.8,₹200 for one
+111,Prince Restaurant- Yuvraj Grand,"North Indian, Fast Food, Chinese, South Indian, Beverages, Desserts, Sichuan",3.9,₹200 for one
+112,Neetu's Eat And Meet Dining,"Fast Food, Chinese, North Indian, Sandwich, Sichuan",3.3,₹200 for one
+113,Jawahar Cakes,"Bakery, Fast Food, Chinese, Street Food, Beverages",3.5,₹200 for one
+114,Maniram Sweets And Bakers,"Bakery, Mithai, Street Food",3.8,₹200 for one
+115,Baskin Robbins,"Ice Cream, Desserts, Beverages",4.4,₹200 for one
+116,Barbeque Nation,"BBQ, North Indian, Beverages, Desserts",3.6,₹200 for one
+117,The Khichdi Stories,"North Indian, Desserts",3.4,₹150 for one
+118,Zamghat,"Chinese, Fast Food, South Indian, Beverages, Sichuan",4.0,₹150 for one
+119,New 4 Seasons Bakery,"Bakery, Fast Food, Desserts",4.1,₹150 for one
+120,Roll Berg's,"Fast Food, Beverages, Burger, Pasta",3.7,₹150 for one
+121,Gulmohur Restaurant,"North Indian, Chinese, Street Food, Fast Food, Ice Cream, Desserts, Beverages",3.8,₹150 for one
+122,Faasos - Wraps & Rolls,"Rolls, Wraps, Fast Food",4.0,₹150 for one
+123,The Belgian Waffle Co.,"Waffle, Pancake, Desserts, Beverages, Ice Cream",4.4,₹150 for one
+124,Badkul Prathishthan,"Mithai, Desserts",4.2,₹150 for one
+125,Ichhadhari Lassi L.L.P.,Beverages,3.5,₹150 for one
+126,Hotel Vijan Palace,"Mughlai, North Indian, Street Food, Chinese, Fast Food",4.1,₹150 for one
+127,Hotel Annam,"South Indian, Chinese",3.3,₹150 for one
+128,Roopali Restaurant,"North Indian, Desserts, Beverages",3.9,₹150 for one
+129,Too Yummy,"North Indian, Fast Food, Biryani",3.7,₹150 for one
+130,Ishvit Snacks,"North Indian, South Indian, Street Food",4.6,₹150 for one
+131,Momo Colling,"Momos, Chinese, Fast Food",3.6,₹150 for one
+132,Fnp Cakes 'N' More,Bakery,3.7,₹150 for one
+133,London Bubble Co.,"Ice Cream, Waffle, Desserts, Beverages",4.0,₹150 for one
+134,Kulcha Da Culture - By Narendra Dairy,"North Indian, Kebab",3.8,₹150 for one
+135,Raju Pizza,"Pizza, Fast Food, South Indian, Chinese",3.6,₹150 for one
+136,The Treat Cake Shop,"Bakery, Desserts, Fast Food",3.6,₹150 for one
+137,Cafe Coffee Day,"Cafe, Fast Food, Coffee, Desserts, Beverages",4.0,₹150 for one
+138,The Frankies,"Chinese, Rolls",4.1,₹150 for one
+139,Hashtag Cakes,"Bakery, Desserts",3.7,₹150 for one
+140,The Melting Pot Bistro,"North Indian, Italian, Chinese, Fast Food, Beverages, Shake, Coffee",3.8,₹150 for one
+141,The Handi,"North Indian, Mughlai",3.9,₹150 for one
+142,Vada Pav Junction,Street Food,4.0,₹150 for one
+143,Prakash Masala Dosa,"South Indian, Fast Food, Momos",3.6,₹150 for one
+144,Gaurav Bakers & Ice Cream,"Desserts, Ice Cream, Bakery, Beverages, Waffle",4.1,₹150 for one
+145,Ashirwad Restaurant - Dada Ki Rasoi,"North Indian, Mughlai, Biryani",3.7,₹150 for one
+146,Delicious Punjabees Food,"Fast Food, North Indian, Chinese",3.2,₹150 for one
+147,The Grill,"North Indian, Chinese, Continental, Mughlai, Kebab, Biryani, Desserts, Sichuan",4.1,₹150 for one
+148,Crystal,"North Indian, Chinese, Italian, Desserts, Beverages",3.8,₹150 for one
+149,Punjabi Hatti,"North Indian, Chinese, Sichuan",3.2,₹150 for one
+150,The Foodies Cartel,"Chinese, Fast Food, Desserts, Beverages",3.9,₹150 for one
+151,Xtra Calories,"Fast Food, Continental, Chinese, Momos, Sandwich, Rolls, Sichuan",3.7,₹150 for one
+152,Wok N More,"Chinese, Thai, Sichuan",3.8,₹150 for one
+153,Humsaaz Restaurant,North Indian,3.8,₹150 for one
+154,Chai - Vaai Cafe,"Tea, North Indian, Chinese, Sandwich, Fast Food, Street Food, Shake, Beverages",4.0,₹150 for one
+155,Swastik Restaurant,"North Indian, Chinese, Fast Food",4.4,₹150 for one
+156,Sai Ki Rasoi,North Indian,3.3,₹150 for one
+157,Hotel Rishi Regency,"North Indian, Chinese, Fast Food, Sichuan",3.9,₹150 for one
+158,New Nayab Biryani Center,North Indian,4.0,₹150 for one
+159,Chatore,"Pizza, Fast Food, Chinese, North Indian, Mughlai, Beverages",4.1,₹150 for one
+160,Badde Hotel,North Indian,3.9,₹150 for one
+161,Parampara Veg Restaurant,"North Indian, Chinese, Fast Food, Shake",3.8,₹150 for one
+162,New Keshri Dosa Center,"South Indian, Chinese, Street Food",3.1,₹150 for one
+163,Om Sai Pizza,"Pizza, Hot dogs, Burger",4.0,₹150 for one
+164,UBQ By Barbeque Nation,"North Indian, BBQ, Biryani, Kebab",3.5,₹150 for one
+165,The Biryani Life,"Biryani, Kebab, Hyderabadi, Lucknowi",4.1,₹250 for one
+166,Gulmohur Sweets & Bakers,"Mithai, Street Food, Fast Food, Desserts",4.3,₹250 for one
+167,Tomar's Kitchen Biryani,"Biryani, North Indian",3.9,₹250 for one
+168,Dilli - The Chaat House,"Street Food, Beverages",3.7,₹250 for one
+169,Raju Masala Dosa Chinese And Pav Bhaji Centre,"Street Food, South Indian, Chinese",3.6,₹250 for one
+170,Hira Sweets- Cakes & Dry Fruits,Bakery,3.0,₹250 for one
+171,Kesharwani's Sweets,"Street Food, South Indian, Chinese",3.5,₹250 for one
+172,The Good Bowl,"North Indian, Pasta, Italian",4.1,₹250 for one
+173,Saheb's Restaurant,"Chinese, North Indian, Thai, Mughlai, Biryani, Sichuan",3.7,₹250 for one
+174,The Burger House,Fast Food,New,₹250 for one
+175,Jacksons Back In Time,"North Indian, Chinese, Mughlai, Kebab, Continental",3.9,₹250 for one
+176,Sagar Ratna,"South Indian, North Indian, Chinese",4.1,₹250 for one
+177,Hotel Roopali Inn,"North Indian, Beverages, Fast Food",3.6,₹250 for one
+178,Kaam 25,"Chinese, Fast Food, Beverages",-,₹250 for one
+179,Chai Shai Bar,"Fast Food, Sandwich",3.6,₹250 for one
+180,Prayag Chaat,Street Food,3.9,₹250 for one
+181,Prakash Chaat,Street Food,4.2,₹250 for one
+182,Any Time Meals,"North Indian, Chinese",3.8,₹250 for one
+183,Love Bites,North Indian,-,₹250 for one
+184,Cake Bakery,Bakery,2.8,₹250 for one
+185,Appu Bhel Puri,Street Food,4.3,₹250 for one
+186,The Little Space,"Fast Food, Pizza, Burger, Beverages",4.0,₹250 for one
+187,Haldiram's Express,"Mithai, North Indian, Street Food",4.8,₹250 for one
+188,Suresh Baker's,"Bakery, Desserts",3.6,₹250 for one
+189,Cafe 4 U,"Fast Food, Chinese, Sandwich, Sichuan",3.3,₹100 for one
+190,Aaru Food Junction,Mughlai,-,₹100 for one
+191,Barbecue,"North Indian, Chinese",3.8,₹100 for one
+192,Sweet Truth - Cake and Desserts,"Desserts, Bakery",3.9,₹100 for one
+193,Grandma's Kitchen,"Biryani, North Indian, Chinese, Thai, Rolls, BBQ",4.0,₹100 for one
+194,London Dairy,"Ice Cream, Desserts",4.0,₹100 for one
+195,Tikka Paaji,"North Indian, Fast Food, Kebab",3.7,₹100 for one
+196,Nutritionist Special Rasoi,"Street Food, Beverages, Fast Food",3.0,₹100 for one
+197,Bell Pepper,"North Indian, South Indian, Chinese, Fast Food, Street Food, Desserts, Beverages, Sichuan",3.7,₹100 for one
+198,Shyam Chaat,Street Food,3.1,₹100 for one
+199,Taobao,"Chinese, Momos, Burger, Asian, Fast Food, Desserts, Beverages",3.5,₹100 for one
+200,Dosa Crush,"South Indian, Fast Food, Street Food, Shake, Beverages",3.6,₹100 for one
+201,Sai Guruman Thali And Breakfast,North Indian,4.1,₹50 for one
+202,The Bakesmith,"Bakery, Desserts",4.3,₹50 for one
+203,Jabalpur Fried Chicken,Fast Food,3.7,₹50 for one
+204,Vasanta Bhavan,South Indian,3.9,₹50 for one
+205,Jai Bhawani Tasty Chaat Bhandar,"Street Food, South Indian, Fast Food, Chinese",3.5,₹50 for one
+206,Sanskardhani Juice & Shake,"Fast Food, Street Food, Beverages",4.2,₹50 for one
+207,Sardar G Malai Chaap Junction,"North Indian, Rolls, Momos",New,₹50 for one
+208,SSS Veg South Indian Restaurant,"Chinese, Fast Food, South Indian, Street Food, Momos, Sichuan",3.3,₹50 for one
+209,Tava Veg Family Restaurant,"North Indian, Chinese, Fast Food, South Indian, Desserts, Beverages",3.6,₹50 for one
+210,Om Sai Bhojnalaya,North Indian,4.1,₹50 for one
+211,Apna Cafe,"South Indian, Fast Food",3.1,₹50 for one
+212,Southern Delights,"South Indian, North Indian",4.4,₹50 for one
+213,Cheng Chinese,"Chinese, Fast Food, Sichuan",4.0,₹100 for one
+214,The Luxurious Restaurant,"South Indian, North Indian, Chinese, Pizza, Sandwich, Fast Food, Desserts, Beverages",4.0,₹100 for one
+215,The Chimney Canteen,"Fast Food, Beverages, Sichuan",4.3,₹100 for one
+216,Hotel Satya Ashoka,"North Indian, Chinese, Biryani",4.2,₹100 for one
+217,Amrit Bhandar,Mithai,4.4,₹100 for one
+218,Maa Rewa Sweets,"Mithai, Beverages",4.0,₹100 for one
+219,Grill Inn Pure Veg,"Fast Food, Burger",-,₹100 for one
+220,Mayank Chaat Centre,Street Food,3.2,₹100 for one
+221,Sheesha Sky Lounge,"North Indian, Mughlai, Kebab, Chinese, Biryani, Sichuan",3.7,₹100 for one
+222,Hira Sweets,Mithai,3.6,₹100 for one
+223,Yogis Hira Sweets & Hot Bakers,"Mithai, North Indian, Beverages",3.7,₹100 for one
+224,Guptaji Ke Zayke,"North Indian, Fast Food, Street Food",4.0,₹100 for one
+225,Hotel City Inn Restaurant,"North Indian, Chinese, Mughlai, Beverages, Sichuan",4.0,₹250 for one
+226,Mini Choupati,"Chinese, South Indian, North Indian, Fast Food, Street Food",3.9,₹250 for one
+227,Gourmet Ice Cream Cakes by Baskin Robbins,"Bakery, Ice Cream, Desserts",4.0,₹250 for one
+228,Bindaas Chai Bar,"Fast Food, Momos, Beverages, Tea, Coffee, Shake",2.6,₹250 for one
+229,Head Over Grills,"Fast Food, Wraps, Burger",-,₹250 for one
+230,Food Planet,"Fast Food, Street Food, Rajasthani, North Indian, Beverages, Desserts, Shake, Chinese",3.7,₹250 for one
+231,Bharat Samosa,"Street Food, Beverages",3.3,₹250 for one
+232,Manmohan Veg Restaurant And Thali,North Indian,4.1,₹250 for one
+233,Anni Theka,"Mughlai, Rolls",3.6,₹250 for one
+234,Nani Ki Rasoi,North Indian,New,₹250 for one
+235,Hotel Krishna,"North Indian, Chinese",3.7,₹250 for one
+236,Neel Kanth Dabeli,"South Indian, Chinese",-,₹250 for one
+237,Golden Kitchen Point,"North Indian, Chinese, Biryani, Pasta",3.7,₹150 for one
+238,J B P Food Zone,"Fast Food, Chinese, South Indian, Street Food, North Indian",New,₹150 for one
+239,Ghar Ka Khana,North Indian,3.5,₹150 for one
+240,Celebration Cake,Bakery,-,₹150 for one
+241,Firangi Bake,"Italian, Mexican",3.8,₹150 for one
+242,Lazeez Farmaish,"North Indian, Mughlai",3.4,₹150 for one
+243,Shan Juice Center,"Beverages, Juices, Shake",-,₹150 for one
+244,Agrawal Bhojnalaya,North Indian,-,₹150 for one
+245,Yummy Veggies,"North Indian, Chinese, Momos, Fast Food",-,₹150 for one
+246,Cafenova,"Sandwich, Burger, Fast Food, Chinese, Street Food, Shake, Beverages",-,₹150 for one
+247,Agarwal Bakery,"Bakery, Desserts",-,₹150 for one
+248,Wrap N Go,"North Indian, Fast Food, Chinese, Sandwich, Pizza, Lebanese, Burger, Shake",4.0,₹150 for one
+249,OHO Momos,Momos,New,₹200 for one
+250,Vinco Nxt Bar & Restaurant,"North Indian, South Indian, Chinese, Mughlai, BBQ, Bar Food, Salad",3.7,₹200 for one
+251,Aroma Restaurant- Hotel Midtown,"North Indian, Chinese, Mughlai, Sandwich, Desserts, Beverages",4.0,₹200 for one
+252,Sonali Restaurant,"North Indian, Chinese, South Indian, Fast Food",3.1,₹200 for one
+253,Samdareeya Food Court 2.0,"North Indian, South Indian, Fast Food, Beverages, Sichuan",3.4,₹200 for one
+254,Madhushala Restaurant & Bar,"North Indian, Fast Food",-,₹200 for one
+255,Mandarin Wok - Fresh Asain Kitchen,"Chinese, Sichuan",3.4,₹200 for one
+256,Chef Rasoi Cafe & Restaurant,Fast Food,-,₹200 for one
+257,Sun Cafe,"Chinese, Fast Food, Beverages, Desserts, Continental",3.0,₹200 for one
+258,Rounak Bhel Puri,Street Food,4.2,₹200 for one
+259,Vishan Sweets And Snacks,"Mithai, Street Food",3.3,₹200 for one
+260,Mohan Sweets,"Mithai, Bakery",-,₹200 for one
+261,Captain's Fast Food,Chinese,4.0,₹150 for one
+262,Krishnam Food & Catering,"North Indian, Chinese, South Indian, Street Food, Fast Food, Beverages, Desserts, Shake",4.0,₹150 for one
+263,Wok N Roll,"Chinese, Seafood, Thai, Sichuan",3.7,₹150 for one
+264,Hotel Anushree Restaurant,"North Indian, Continental",3.6,₹150 for one
+265,Urban Pangat Restaurant - Hotel Delite Palladium,"North Indian, Chinese, South Indian, Biryani",4.0,₹150 for one
+266,Hotel Delite Grand,"North Indian, Italian, Continental, Chinese",3.3,₹150 for one
+267,Olives Restaurant,"North Indian, Chinese, Biryani, Fast Food, Sandwich, Beverages",3.8,₹150 for one
+268,Kapil Cafe,"Fast Food, Sandwich",4.1,₹150 for one
+269,Chicken & The Grill,"North Indian, Chinese, Rolls, Mughlai, Biryani, Sichuan",3.9,₹150 for one
+270,Pangat Restaurant Hotel Shikhar Palace,"North Indian, Chinese, Fast Food, Beverages",4.0,₹150 for one
+271,Arq- The Courtyard,"North Indian, Chinese, Mughlai, Kebab, Fast Food, Desserts",4.3,₹150 for one
+272,Hotel BK Castle,"North Indian, Chinese, Desserts, Beverages",3.7,₹150 for one
+273,Shubh Caterer,"Chinese, South Indian, Fast Food",-,₹150 for one
+274,Ajay Chicken Center,"North Indian, Mughlai, Chinese, Fast Food",4.0,₹150 for one
+275,Hotel The Samrat,"North Indian, Mughlai, Chinese, Fast Food, Oriental, Salad, Desserts, Beverages",3.7,₹150 for one
+276,J K Celebration,"North Indian, Chinese, Fast Food, Continental, Beverages, Desserts",-,₹150 for one
+277,Prince Viraj,"North Indian, Chinese, Beverages, Sichuan",3.9,₹150 for one
+278,Anuradha's Cakes,"Bakery, Desserts",-,₹150 for one
+279,Bites Chocolate Delights,"Bakery, Desserts",-,₹150 for one
+280,Soy Sauce,"Asian, Chinese, Seafood, Sichuan",-,₹150 for one
+281,Birthday Zone,"Bakery, Desserts",3.8,₹150 for one
+282,Aman's Chicken,"North Indian, Rolls, Momos",3.3,₹150 for one
+283,The Chai Square Tapri,"Beverages, Street Food, Fast Food, Tea, Shake",-,₹150 for one
+284,Chaap & Chop,"Chinese, Momos, Fast Food",3.5,₹150 for one
+285,Clay Oven Kebabs Curries & Roll,"North Indian, Fast Food, Kebab",3.5,₹300 for one
+286,Jain Bakery,Bakery,-,₹300 for one
+287,OMC Events & Entertainment,North Indian,-,₹300 for one
+288,Brahmin's Kitchen,"Fast Food, South Indian, Street Food, North Indian, Beverages",3.0,₹300 for one
+289,Jollywood Cafe,"Burger, Street Food, Beverages",3.5,₹300 for one
+290,Abhijeet Hotel,"Biryani, North Indian",-,₹300 for one
+291,Radhe Sweets,"Bakery, Desserts, Street Food",-,₹300 for one
+292,Wasabi & More,"Asian, Thai, Sushi, Rolls, Chinese, Salad",3.9,₹300 for one
+293,Popular Fresh Momos 'N' Mor,"Momos, Fast Food",-,₹300 for one
+294,Hydrabad Chicken House,"Biryani, BBQ",3.1,₹300 for one
+295,M/S Aaru Food Junction,"Biryani, Andhra",-,₹300 for one
+296,Cafe Pet Pooja,"Chinese, Sandwich, Burger, Pizza, Pasta, North Indian",-,₹300 for one
+297,Sub Desi,"Fast Food, Chinese, Street Food, Wraps, Sichuan",New,₹250 for one
+298,Dhanvi Foods,"Chinese, North Indian, Salad, Beverages",-,₹250 for one
+299,Air Lounge,"North Indian, Italian, Chinese, Fast Food, Salad",-,₹250 for one
+300,The Panini's,"Fast Food, Panini, Beverages",3.8,₹250 for one
+301,Cafe Hidden Place,"Fast Food, Chinese, Street Food, Beverages, Burger",-,₹250 for one
+302,Mehfil Biryani By Zakir Khan,"Biryani, Mughlai, Lucknowi, Kebab, Hyderabadi",3.4,₹250 for one
+303,Chakhna Hub,"Chinese, Street Food",-,₹250 for one
+304,Anjali Cakes,Bakery,New,₹250 for one
+305,Food Tadka,"North Indian, Mithai",-,₹250 for one
+306,MP Pav Bhaji Center,"Fast Food, Street Food",-,₹250 for one
+307,The Thali Street,"North Indian, Biryani, Chinese",-,₹250 for one
+308,Mohnam Food Plaza,"North Indian, Chinese, Fast Food, Pizza, Sandwich, Sichuan",-,₹250 for one
+309,Veg Daawat By Behrouz,"Biryani, North Indian, Mughlai",4.0,₹450 for one
+310,Paratha Express,North Indian,3.8,₹450 for one
+311,Signature Wraps & Rolls By Faasos,"Wraps, Rolls",-,₹450 for one
+312,LunchBox - Meals and Thalis,North Indian,4.2,₹450 for one
+313,Pure Veg Meals by LunchBox,North Indian,-,₹450 for one
+314,Khichdi Me Tadka,North Indian,New,₹450 for one
+315,Baba Bhai Fish Fry,"North Indian, Kebab",4.0,₹450 for one
+316,The Cake Company Cafe,"Bakery, Sandwich, Street Food, Fast Food, Rolls, Chinese, Beverages, North Indian",3.9,₹450 for one
+317,StarDrinks -Tharra Bar,"Pizza, Sandwich, Burger, Momos, Beverages, Shake, Fast Food",3.5,₹450 for one
+318,Tandoori Nights,"Mughlai, North Indian, Chinese, Biryani",3.1,₹450 for one
+319,The Champaran Kitchen,"North Indian, Mughlai, Chinese, Biryani",3.7,₹450 for one
+320,Maa Shakti Bhojanalya,North Indian,4.0,₹450 for one
+321,Kathi Junction,Rolls,3.9,₹450 for one
+322,"Indore Sweets, Namkeen & Bakery","Mithai, Street Food",4.2,₹450 for one
+323,Dal Bati Bharta,North Indian,4.3,₹450 for one
+324,Clock Tower,"Chinese, Seafood, Sichuan",4.0,₹450 for one
+325,Hanuman Lassi & Juice Center,"Beverages, Juices, Shake",3.8,₹450 for one
+326,Rolls Valley,"Rolls, Burger, Momos, Fast Food, Chinese, Sichuan",4.0,₹450 for one
+327,Haldiram's Express,"Mithai, North Indian, Street Food",4.3,₹450 for one
+328,Hotel Panchawati Gaurav,Gujarati,4.1,₹300 for one
+329,New Manmohan Hotel,North Indian,3.7,₹300 for one
+330,Cafe Conection,"Chinese, Fast Food, Street Food",3.5,₹300 for one
+331,What's Cooking?,Fast Food,3.8,₹300 for one
+332,Om Food Junction,"North Indian, Fast Food",-,₹300 for one
+333,Jabalpur Cake- Pattie House,Fast Food,4.0,₹300 for one
+334,Calcutta Chinese,"Fast Food, Chinese, Rolls, Biryani",4.4,₹300 for one
+335,Top 'N' Town,"Desserts, Ice Cream",4.2,₹300 for one
+336,Deepak Momos,"Momos, Street Food, Beverages",-,₹300 for one
+337,Jain Homemade Cakes,Bakery,-,₹300 for one
+338,Babu Chaurasiya Pan,Paan,4.3,₹300 for one
+339,Bindaas Chai Bar,"Fast Food, Momos, Beverages, Tea, Coffee, Shake",4.0,₹300 for one
+340,Party Point,"South Indian, Chinese",-,₹100 for one
+341,Peppers Restaurant,"North Indian, Street Food, Chinese, Beverages, South Indian",-,₹100 for one
+342,Mumbai Masala,North Indian,-,₹100 for one
+343,BakeHub By Ritika,"Bakery, Desserts",3.9,₹100 for one
+344,Javed Biryani Center,"North Indian, Biryani",3.5,₹100 for one
+345,Mukesh Bakery,"Bakery, Chinese, Fast Food, Pizza, Sandwich, Street Food, Desserts, Beverages",4.0,₹100 for one
+346,Badal Kabab,"Mughlai, Kebab",4.2,₹100 for one
+347,Raj Sweets,"Mithai, Street Food",-,₹100 for one
+348,Hotel Shubhkamna,"North Indian, Chinese, Mughlai, Beverages",4.0,₹100 for one
+349,Chawlas Restaurant,"North Indian, Chinese, Mughlai, Kebab, Biryani, Beverages, Seafood, Desserts",4.0,₹100 for one
+350,Nyt Meal,Fast Food,3.7,₹100 for one
+351,Al Habeeb Restaurant,"Mughlai, North Indian",3.8,₹100 for one
+352,Boston Pizza Co,"Fast Food, Pizza, Burger, Sandwich, Panini",3.0,₹150 for one
+353,Shri Siddh Sai,"Chinese, South Indian, Fast Food, Street Food, Sichuan",3.9,₹150 for one
+354,Hotel Sidharth,"North Indian, Chinese, Fast Food, Beverages",-,₹150 for one
+355,Flowers And Cake Point,Bakery,-,₹150 for one
+356,Natural Juice Bar,"Juices, Shake, Beverages",-,₹150 for one
+357,Hot Pot Chicken And Biryani Center,Biryani,4.0,₹150 for one
+358,Hamza Chicken & Fish Point,"North Indian, Street Food",-,₹150 for one
+359,Sai Dosa Center,South Indian,4.0,₹150 for one
+360,Kitchen Club,"North Indian, Chinese, Fast Food, Mughlai, Pizza, Biryani",4.0,₹150 for one
+361,The Spice Hut,"Chinese, North Indian, Street Food",-,₹150 for one
+362,Southern Flavours,South Indian,-,₹150 for one
