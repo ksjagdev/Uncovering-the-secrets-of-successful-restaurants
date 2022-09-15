@@ -63,7 +63,6 @@ def data_extraction():
 
         cuisine_tag = rest_name.parent.next_sibling.p.text
         cuisines.append(cuisine_tag)
-    browser_driver().close()
 
     for page_tags in all_rest_page_url:
         page_url = rest_homepage_url + page_tags
@@ -75,6 +74,8 @@ def data_extraction():
         
         location_tag = h1_tag[1].parent.next_sibling.div.next_sibling.text
         locality.append(location_tag)
+    
+    browser_driver().close()
 
     def data_export(name):
         name = input("Save the exported file as: ")
