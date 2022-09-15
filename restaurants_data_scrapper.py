@@ -1,4 +1,3 @@
-import requests as r
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 from path import driver_path, check_dir
