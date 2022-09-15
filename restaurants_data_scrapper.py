@@ -41,7 +41,7 @@ all_rest_page_url = []
 
 name_tags = homepage_soup.find_all("h4")
 
-rest_page_url = "https://www.zomato.com/"
+rest_url = "https://www.zomato.com/"
 
 
 for rest_name in name_tags[:len(name_tags)-1]:
@@ -62,7 +62,7 @@ for rest_name in name_tags[:len(name_tags)-1]:
 
 
 for page_tags in all_rest_page_url:
-    page_url = rest_page_url + page_tags
+    page_url = rest_url + page_tags
     driver.get(page_url)
     
     rest_page_soup = bs(driver.page_source, "html.parser")
