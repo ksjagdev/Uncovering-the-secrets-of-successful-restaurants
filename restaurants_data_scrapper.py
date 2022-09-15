@@ -80,6 +80,6 @@ for page_tags in all_rest_page_url:
 
 driver.close()
 
-restaurants_df = pd.DataFrame({"name": rest_names, "cuisines": cuisines, "rating": rating, "price_per_person": price_per_person, "location": locality})
+restaurants_df = pd.DataFrame({"name": rest_names, "cuisines": cuisines, "rating": overall_rating, "price_per_person": price_per_person, "location": locality})
 restaurants_df.to_csv("./Dataset/jabalpur_restaurants.csv")
 
