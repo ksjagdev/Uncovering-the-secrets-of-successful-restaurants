@@ -69,10 +69,12 @@ for page_tags in all_rest_page_url:
     
     rest_page_soup = bs(driver.page_source, "html.parser")
 
-    h1_tag= rest_page_soup.find_all("h1")
+    name_tag= rest_page_soup.find_all("h1")
     
-    location_tag = h1_tag[1].parent.next_sibling.div.next_sibling.text
+    location_tag = name_tag[1].parent.next_sibling.div.next_sibling.text
     locality.append(location_tag)
+
+
 
 driver.close()
 
