@@ -12,6 +12,7 @@ user_agent = {"User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb
 options = webdriver.EdgeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Edge(executable_path=driver_path, options= options)
+driver.get(homepage_url)
 
 time.sleep(1)  # Suspends the webpage for 1 seconds
 scroll_pause_time = 2  # Time interval between two consecutive scrolls
@@ -28,21 +29,27 @@ while True:
     # Break the loop when the height to scroll to is larger than the total scroll height
     if (screen_height) * i > scroll_height:
         break
-driver.get(homepage_url)
 
-#     scroll_height = driver.execute_script("return document.body.scrollHeight;")
 homepage_soup = bs(driver.page_source, "html.parser")
 
 rest_names=[]
 cuisines= []
 rating= []
 price_per_person = []
+locality = []
+all_rest_page_url = []
+
 name_tags = homepage_soup.find_all("h4")
+
+rest_url = "https://www.zomato.com/"
 
 
 for rest_name in name_tags[:len(name_tags)-1]:
 
     rest_names.append(rest_name.text)
+
+    rest_page_tag = rest_name.parent.parent
+    all_rest_page_url.append(rest_page_tag["href"])
 
     rating_tag = rest_name.parent.div.div.div.div.div.div.text
     rating.append(rating_tag)
@@ -53,6 +60,20 @@ for rest_name in name_tags[:len(name_tags)-1]:
     cuisine_tag = rest_name.parent.next_sibling.p.text
     cuisines.append(cuisine_tag)
 
-restaurants_df = pd.DataFrame({"name": rest_names, "cuisines": cuisines, "rating": rating, "price_per_person": price_per_person})
 
+for page_tags in all_rest_page_url:
+    page_url = rest_url + page_tags
+    driver.get(page_url)
+    
+    rest_page_soup = bs(driver.page_source, "html.parser")
+
+    h1_tag= rest_page_soup.find_all("h1")
+    
+    location_tag = h1_tag[1].parent.next_sibling.div.next_sibling.text
+    locality.append(location_tag)
+
+driver.close()
+
+restaurants_df = pd.DataFrame({"name": rest_names, "cuisines": cuisines, "rating": rating, "price_per_person": price_per_person, "location": locality})
 restaurants_df.to_csv("./Dataset/jabalpur_restaurants.csv")
+
