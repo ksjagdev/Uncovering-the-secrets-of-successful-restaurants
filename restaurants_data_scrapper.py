@@ -48,8 +48,10 @@ for rest_name in name_tags[:len(name_tags)-1]:
 
     rest_names.append(rest_name.text)
 
-    rest_page_tag = rest_name.parent.parent
-    all_rest_page_url.append(rest_page_tag["href"])
+    rest_page_tag = rest_name.parent.parent 
+
+    rest_page_tag = rest_page_tag["href"][:-5] + "reviews"
+    all_rest_page_url.append(rest_page_tag)
 
     rating_tag = rest_name.parent.div.div.div.div.div.div.text
     rating.append(rating_tag)
