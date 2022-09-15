@@ -34,7 +34,7 @@ homepage_soup = bs(driver.page_source, "html.parser")
 
 rest_names=[]
 cuisines= []
-rating= []
+overall_rating= []
 price_per_person = []
 locality = []
 all_rest_page_url = []
@@ -54,7 +54,7 @@ for rest_name in name_tags[:len(name_tags)-1]:
     all_rest_page_url.append(rest_page_tag)
 
     rating_tag = rest_name.parent.div.div.div.div.div.div.text
-    rating.append(rating_tag)
+    overall_rating.append(rating_tag)
 
     price_tag = rest_name.parent.next_sibling.p.next_sibling.text
     price_per_person.append(price_tag)
@@ -73,6 +73,8 @@ for page_tags in all_rest_page_url:
     
     location_tag = name_tag[1].parent.next_sibling.div.next_sibling.text
     locality.append(location_tag)
+
+
 
 
 
