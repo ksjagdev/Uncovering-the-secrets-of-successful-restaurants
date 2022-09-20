@@ -15,7 +15,7 @@ driver = webdriver.Edge(executable_path=driver_path, options= options)
 driver.get(homepage_url)
 
 time.sleep(1)  # Suspends the webpage for 1 seconds
-scroll_pause_time = 2  # Time interval between two consecutive scrolls
+scroll_pause_time = 3  # Time interval between two consecutive scrolls
 screen_height = driver.execute_script("return window.screen.height;")  # extract the screen height of the webpage
 i = 1
 
@@ -71,6 +71,8 @@ for page_tags in all_rest_page_url:
     page_url = rest_homepage_url + page_tags
     driver.get(page_url)
     
+    time.sleep(2)
+
     rest_page_soup = bs(driver.page_source, "html.parser")
 
     name_tag= rest_page_soup.find_all("h1")
