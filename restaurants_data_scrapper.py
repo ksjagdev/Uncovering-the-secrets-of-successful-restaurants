@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup as bs
 import pandas as pd
-from path import driver_path, check_dir
+from path import check_dir
 from selenium import webdriver
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 import time
