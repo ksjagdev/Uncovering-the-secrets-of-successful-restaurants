@@ -45,7 +45,7 @@ dining_reviews = []
 
 name_tags = homepage_soup.find_all("h4")
 
-rest_homepage_url = "https://www.zomato.com/"
+rest_homepage_url = "https://www.zomato.com"
 
 
 for rest_name in name_tags[:len(name_tags)-1]:
