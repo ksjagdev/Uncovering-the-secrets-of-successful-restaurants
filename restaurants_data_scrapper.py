@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup as bs
 import pandas as pd
 from path import driver_path, check_dir
 from selenium import webdriver
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
 import time
 
 check_dir()  # This function is responsible for checking and changing the working directory of the project
@@ -11,7 +12,7 @@ user_agent = {"User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb
 
 options = webdriver.EdgeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
-driver = webdriver.Edge(executable_path=driver_path, options= options)
+driver = webdriver.Edge(EdgeChromiumDriverManager().install(), options= options)
 driver.get(homepage_url)
 
 time.sleep(1)  # Suspends the webpage for 1 seconds
@@ -76,7 +77,7 @@ for page_tags in all_rest_page_url:
     rest_page_soup = bs(driver.page_source, "html.parser")
 
     name_tag= rest_page_soup.find_all("h1")
-    
+
     location_tag = name_tag[1].parent.next_sibling.div.next_sibling.text
     locality.append(location_tag)
 
