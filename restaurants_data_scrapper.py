@@ -77,6 +77,10 @@ for page_tags in all_rest_page_url:
 
     name_tag= rest_page_soup.find_all("h1")
 
+    if len(name_tag) == 1 :
+        time.sleep(100)
+        driver.close()
+
     location_tag = name_tag[1].parent.next_sibling.div.next_sibling.text
     locality.append(location_tag)
 
