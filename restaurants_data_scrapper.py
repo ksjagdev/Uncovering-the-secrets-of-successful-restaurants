@@ -8,7 +8,6 @@ import time
 check_dir()  # This function is responsible for checking and changing the working directory of the project
 
 homepage_url = "https://www.zomato.com/jabalpur/restaurants"
-user_agent = {"User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"}
 
 options = webdriver.EdgeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
