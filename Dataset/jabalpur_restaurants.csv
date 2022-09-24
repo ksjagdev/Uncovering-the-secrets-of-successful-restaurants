@@ -1,94 +1,83 @@
 ,name,cuisines,overall_rating,price_per_person,location,delivery_rating,delivery_reviews,dining_rating,dining_reviews
-0,Popular Fresh Momos 'n' More,"Chinese, Fast Food, Momos, Burger, Beverages, Sichuan",4.1,₹150 for one,"Cantt, Jabalpur",4.1,692,3.1,7
-1,Munna Hotel,"North Indian, Mughlai",3.2,₹150 for one,"Vijay Nagar, Jabalpur",3.2,743,3.3,8
-2,Yo Pizzariya,"Pizza, Fast Food, Beverages, Shake, Desserts",3.7,₹150 for one,"Napier Town, Jabalpur",3.7,99,-,0
-3,Moti Mahal Delux - Tandoori Trail,"North Indian, Mughlai, Chinese, Desserts, Beverages, Rajasthani, Fast Food, Biryani",3.9,₹150 for one,"Napier Town, Jabalpur",3.9,"5,825",4.1,284
-4,Pizza Hut,"Pizza, Fast Food, Desserts, Beverages",3.9,₹150 for one,"Napier Town, Jabalpur",3.9,"8,308",4.2,310
-5,Hotel Shree Ras,North Indian,3.9,₹150 for one,"Napier Town, Jabalpur",3.9,"9,831",4.1,167
-6,New Vasu Restaurant,"North Indian, Chinese, Fast Food, Street Food, Beverages",4.0,₹150 for one,"Hathital, Jabalpur",4.0,"4,926",4.0,130
-7,Abhinandan Veg Restaurant,North Indian,4.0,₹150 for one,"Wright Town, Jabalpur",4.0,"3,232",3.4,18
-8,Khopcha Restaurant,"North Indian, Chinese, Fast Food",4.0,₹150 for one,"Wright Town, Jabalpur",4.0,"6,078",4.0,160
-9,The Tandoor House,"North Indian, Mughlai",4.0,₹250 for one,"Rampur, Jabalpur",4.0,"6,427",-,0
-10,Jharoka Restaurant The Arihant Palace,"North Indian, Mughlai, Chinese, Beverages, Desserts",4.1,₹250 for one,"Napier Town, Jabalpur",4.1,21.2K,4.4,399
-11,Nanking Chinese Restaurant,"Chinese, Seafood, Sichuan",3.8,₹250 for one,"Napier Town, Jabalpur",3.8,11.3K,3.8,227
-12,Barbecue,"North Indian, Chinese",3.8,₹250 for one,"Hathital, Jabalpur",3.8,"4,722",3.9,105
-13,99 Pancakes,"Waffle, Desserts, Beverages",4.3,₹250 for one,"Hathital, Jabalpur",4.3,"3,058",3.9,86
-14,Gulmohur Restaurant,"North Indian, Chinese, Street Food, Fast Food, Ice Cream, Desserts, Beverages",3.7,₹250 for one,"Ganjipura, Jabalpur",3.7,"1,834",3.6,47
-15,Sai Chinese Centre,"Chinese, South Indian, Fast Food, Sichuan",3.7,₹250 for one,"Lordganj, Jabalpur",3.7,"3,358",2.9,17
-16,Pride By Samrat - The Kitchen,"North Indian, Chinese, Mughlai, Seafood, Desserts, Beverages",4.0,₹250 for one,"Rampur, Jabalpur",4.0,"2,774",3.0,16
-17,Behrouz Biryani,"Biryani, Kebab, Hyderabadi, Lucknowi",4.3,₹250 for one,"Ganjipura, Jabalpur",4.3,"2,434",-,0
-18,StarDrinks -Tharra Bar,"Pizza, Sandwich, Burger, Momos, Beverages, Shake, Fast Food",3.5,₹250 for one,"Hathital, Jabalpur",3.5,"1,772",2.5,5
-19,Neetu's Eat And Meet Dining,"Fast Food, Chinese, North Indian, Sandwich, Sichuan",3.3,₹250 for one,"Khamaria, Jabalpur",3.3,355,3.0,4
-20,Hotel Vijan Palace,"Mughlai, North Indian, Street Food, Chinese, Fast Food",4.0,₹250 for one,"Ganjipura, Jabalpur",4.0,935,-,2
-21,La Pino'z Pizza,"Pizza, Fast Food",4.0,₹150 for one,"Napier Town, Jabalpur",4.0,"7,703",4.0,162
-22,Baskin Robbins,"Ice Cream, Desserts, Beverages",4.4,₹150 for one,"Rampur, Jabalpur",4.4,"2,792",3.8,80
-23,Lakkhe Di Hatti Punjabi Rasoi,"North Indian, Chinese",3.9,₹150 for one,"Hathital, Jabalpur",3.9,993,3.7,63
-24,Pangat Restaurant Hotel Shikhar Palace,"North Indian, Chinese, Fast Food, Beverages",4.0,₹150 for one,"Napier Town, Jabalpur",4.0,"2,064",3.7,88
-25,Roll Berg's,"Fast Food, Beverages, Burger, Pasta",3.7,₹150 for one,"Napier Town, Jabalpur",3.7,301,3.2,7
-26,Paratha Express,North Indian,3.8,₹150 for one,"Wright Town, Jabalpur",3.8,156,-,0
-27,Nutritionist Special Rasoi,"Street Food, Beverages, Fast Food",3.0,₹150 for one,"Ghamapur, Jabalpur",3.0,147,-,0
-28,Wang Chinese Cuisine,"Chinese, Seafood, Sichuan",4.1,₹150 for one,"Hathital, Jabalpur",4.1,"3,649",3.2,66
-29,Ishvit Snacks,"North Indian, South Indian, Street Food",4.6,₹150 for one,"Wright Town, Jabalpur",4.6,"2,635",-,0
-30,Saheb's Food Junction,"North Indian, Seafood, Biryani",3.8,₹150 for one,"Napier Town, Jabalpur",3.8,10.9K,4.1,273
-31,The Biryani Life,"Biryani, Kebab, Hyderabadi, Lucknowi",4.1,₹150 for one,"Ganjipura, Jabalpur",4.1,205,-,0
-32,Maniram Sweets And Bakers,"Bakery, Mithai, Street Food",3.6,₹150 for one,"Ganjipura, Jabalpur",3.6,117,-,0
-33,Food Republic,"North Indian, Fast Food, Sandwich, Chinese, Pizza, Beverages, Sichuan",3.8,₹250 for one,"Hathital, Jabalpur",3.8,"2,101",3.6,54
-34,Aroma Restaurant- Hotel Midtown,"North Indian, Chinese, Mughlai, Sandwich, Desserts, Beverages",3.8,₹250 for one,"Napier Town, Jabalpur",3.8,43,2.9,4
-35,Desi Tadka,"North Indian, Chinese",3.8,₹250 for one,"Vijay Nagar, Jabalpur",3.8,95,-,2
-36,Punjabi Hatti,"North Indian, Chinese, Sichuan",3.3,₹250 for one,"Khamaria, Jabalpur",3.3,558,-,0
-37,Faasos - Wraps & Rolls,"Rolls, Wraps, Fast Food",4.0,₹250 for one,"Ganjipura, Jabalpur",4.0,"1,214",-,0
-38,Dhaba Treat By Munna Hotel,North Indian,3.4,₹250 for one,"Vijay Nagar, Jabalpur",3.4,84,-,0
-39,LunchBox - Meals and Thalis,North Indian,4.2,₹250 for one,"Ganjipura, Jabalpur",4.2,174,-,0
-40,The Good Bowl,"North Indian, Pasta, Italian",4.1,₹250 for one,"Ganjipura, Jabalpur",4.1,234,-,0
-41,The Chocolate Story,"North Indian, Fast Food, Mexican, Sandwich, Pizza, Desserts, Beverages",4.0,₹250 for one,"Napier Town, Jabalpur",4.0,"2,510",3.8,69
-42,The Melting Pot Bistro,"North Indian, Italian, Chinese, Fast Food, Beverages, Shake, Coffee",3.8,₹250 for one,"Wright Town, Jabalpur",3.8,"2,835",3.8,142
-43,Z-7 Food,"Chinese, Sandwich, Fast Food",4.1,₹250 for one,"Napier Town, Jabalpur",4.1,10.6K,4.0,262
-44,Traffic Jam Food Junction,"North Indian, South Indian, Mughlai, Chinese, Fast Food, Continental, Desserts, Beverages",4.0,₹250 for one,"Cantt, Jabalpur",4.0,"5,869",4.1,158
-45,Tava Veg Family Restaurant,"North Indian, Chinese, Fast Food, South Indian, Desserts, Beverages",3.6,₹150 for one,"Napier Town, Jabalpur",3.6,137,3.5,31
-46,Badkul Sweets,"Mithai, Street Food",4.4,₹150 for one,"Vijay Nagar, Jabalpur",4.4,674,-,0
-47,The Grill,"North Indian, Chinese, Continental, Mughlai, Kebab, Biryani, Desserts, Sichuan",4.2,₹150 for one,"Rampur, Jabalpur",4.2,"1,457",3.7,46
-48,House Of Blends,"Cafe, Continental, Chinese, North Indian, Sandwich, Fast Food, Desserts, Beverages",4.2,₹150 for one,"Wright Town, Jabalpur",4.2,"1,458",3.8,99
-49,Food Planet,"Fast Food, Street Food, Rajasthani, North Indian, Beverages, Desserts, Shake, Chinese",3.7,₹150 for one,"Ganjipura, Jabalpur",3.7,141,2.8,19
-50,Crystal,"North Indian, Chinese, Italian, Desserts, Beverages",3.8,₹150 for one,"Rampur, Jabalpur",3.8,"6,598",4.0,218
-51,Hyderabad House,"Biryani, North Indian",3.8,₹150 for one,"Wright Town, Jabalpur",3.8,"2,744",4.1,107
-52,Hotel Roopali Inn,"North Indian, Beverages, Fast Food",3.7,₹150 for one,"Napier Town, Jabalpur",3.7,"3,553",3.9,131
-53,Desi Twist,"Fast Food, Street Food",4.2,₹150 for one,"Civil Lines, Jabalpur",4.2,15.3K,4.6,269
-54,Express Thali By Rajwada,"North Indian, Rajasthani, Mithai",3.9,₹150 for one,"Wright Town, Jabalpur",3.9,"4,567",3.6,46
-55,Olives Restaurant,"North Indian, Chinese, Biryani, Fast Food, Sandwich, Beverages",3.8,₹150 for one,"Napier Town, Jabalpur",3.8,"2,006",4.0,86
-56,Maa Shakti Bhojanalya,North Indian,4.0,₹150 for one,"Wright Town, Jabalpur",4.0,"5,778",3.9,138
-57,Hotel BK Castle,"North Indian, Chinese, Desserts, Beverages",3.7,₹200 for one,"Napier Town, Jabalpur",3.7,229,2.8,11
-58,Kulcha Da Culture - By Narendra Dairy,"North Indian, Kebab",3.9,₹200 for one,"Wright Town, Jabalpur",3.9,260,-,1
-59,Sweet Truth - Cake and Desserts,"Desserts, Bakery",3.9,₹200 for one,"Ganjipura, Jabalpur",3.9,196,-,0
-60,Heera Stores,Bakery,3.9,₹200 for one,"Ghamapur, Jabalpur",3.9,"1,272",-,0
-61,Hanuman Lassi & Juice Center,"Beverages, Juices, Shake",3.8,₹200 for one,"Wright Town, Jabalpur",3.8,522,-,0
-62,Bhatia Egg Shop,"Street Food, Fast Food",3.9,₹200 for one,"Khamaria, Jabalpur",3.9,247,-,0
-63,Xtra Calories,"Burger, Sandwich, Chinese, Fast Food, Momos",4.0,₹200 for one,"Ghamapur, Jabalpur",4.0,200,-,0
-64,Jai Bhawani Tasty Chaat Bhandar,"Street Food, South Indian, Fast Food, Chinese",3.5,₹200 for one,"Lordganj, Jabalpur",3.5,111,-,3
-65,Birthday Zone,"Bakery, Desserts",3.8,₹200 for one,"Cantt, Jabalpur",3.8,43,-,0
-66,Hotel The Samrat,"North Indian, Mughlai, Chinese, Fast Food, Oriental, Salad, Desserts, Beverages",3.8,₹200 for one,"Napier Town, Jabalpur",3.8,436,3.4,32
-67,Munna Hotel Damoh Naka,North Indian,3.6,₹200 for one,"Gohalpur, Jabalpur",3.6,"9,270",4.2,184
-68,Dilliwala's,"North Indian, Chinese, Fast Food, Rolls, Sichuan",4.1,₹200 for one,"Rampur, Jabalpur",4.1,"6,470",-,0
-69,New Nayab Biryani Center,North Indian,4.0,₹150 for one,"Civil Lines, Jabalpur",4.0,48,-,0
-70,Captain's Fast Food,Chinese,2.7,₹150 for one,"Vijay Nagar, Jabalpur",2.7,197,-,0
-71,"RK Veg, Non Veg Restaurant",North Indian,-,₹150 for one,"Vijay Nagar, Jabalpur",-,11,-,1
-72,Hashtag Cakes,"Bakery, Desserts",3.5,₹150 for one,"Chandmari, Jabalpur",3.5,124,-,0
-73,Hot Pot Chicken And Biryani Center,Biryani,4.0,₹150 for one,"Napier Town, Jabalpur",4.0,34,3.5,5
-74,Hyderabadi Chicken Biryani,"Biryani, Mughlai",4.0,₹150 for one,"Napier Town, Jabalpur",4.0,34,-,2
-75,Hotel Rishi Regency,"North Indian, Chinese, Fast Food, Sichuan",3.9,₹150 for one,"Napier Town, Jabalpur",3.9,"3,759",3.8,96
-76,Tikka Paaji,"North Indian, Fast Food, Kebab",3.8,₹150 for one,"Civil Lines, Jabalpur",3.8,720,-,0
-77,Momo Colling,"Momos, Chinese, Fast Food",3.7,₹150 for one,"Vijay Nagar, Jabalpur",3.7,839,3.9,114
-78,Megh Restaurant,"North Indian, Mughlai, Chinese",3.8,₹150 for one,"Napier Town, Jabalpur",3.8,"1,971",3.4,22
-79,Chaat Chatore,"South Indian, Chinese, North Indian, Street Food, Fast Food, Beverages",3.6,₹150 for one,"Hathital, Jabalpur",3.6,"9,358",3.8,120
-80,Clay Oven Kebabs Curries & Roll,"North Indian, Fast Food, Kebab",3.5,₹150 for one,"Wright Town, Jabalpur",3.5,41,-,0
-81,Any Time Meals,"North Indian, Chinese",3.7,₹200 for one,"Cantt, Jabalpur",3.7,"2,598",3.7,103
-82,Veg Food Express,"Biryani, Street Food",4.1,₹200 for one,"Hathital, Jabalpur",4.1,108,-,0
-83,Abhijeet Hotel,"Biryani, North Indian",-,₹200 for one,"Gohalpur, Jabalpur",-,19,-,0
-84,Sheesha Sky Lounge,"North Indian, Mughlai, Kebab, Chinese, Biryani, Sichuan",3.6,₹200 for one,"Napier Town, Jabalpur",3.6,802,3.8,116
-85,Zigzag Cravings,"Fast Food, Chinese, Filipino, Pasta",3.7,₹200 for one,"Adhartal, Jabalpur",3.7,215,-,0
-86,Rounak Bhel Puri,Street Food,3.7,₹200 for one,"Napier Town, Jabalpur",3.7,644,-,0
-87,Parampara Veg Restaurant,"North Indian, Chinese, Fast Food, Shake",3.8,₹200 for one,"Napier Town, Jabalpur",3.8,666,3.4,41
-88,Badkul Restaurant,"North Indian, Chinese, Fast Food, South Indian, Desserts, Beverages",3.9,₹200 for one,"Vijay Nagar, Jabalpur",3.9,39.6K,4.1,696
-89,Shri Siddh Hotel,North Indian,-,₹200 for one,"Vijay Nagar, Jabalpur",-,8,-,0
-90,Agrawal Sweets,"Mithai, Desserts",4.2,₹200 for one,"Gohalpur, Jabalpur",4.2,500,-,0
-91,Pooja Bakers,"Bakery, Desserts",-,₹200 for one,"Napier Town, Jabalpur",-,2,-,0
-92,Urban Pangat Restaurant - Hotel Delite Palladium,"North Indian, Chinese, South Indian, Biryani",4.0,₹200 for one,"Civil Lines, Jabalpur",4.0,46,3.6,8
+0,Nanking Chinese Restaurant,"Chinese, Seafood, Sichuan",3.8,₹200 for one,"Napier Town, Jabalpur",3.8,11.3K,3.8,227
+1,Shri Munna Hotel,North Indian,3.4,₹200 for one,"Vijay Nagar, Jabalpur",3.4,"3,281",3.6,46
+2,Tomar's Kitchen Biryani,"Biryani, North Indian",3.9,₹200 for one,"Lordganj, Jabalpur",3.9,116,-,0
+3,Popular Fresh Momos 'N' More,"Chinese, Fast Food, Momos, Burger, Beverages, Sichuan",3.7,₹200 for one,"Napier Town, Jabalpur",3.7,14.5K,3.9,383
+4,Royal Food Factory,"Chinese, Fast Food, Beverages, Pizza",3.8,₹200 for one,"Vijay Nagar, Jabalpur",3.8,708,3.3,21
+5,Munna Hotel,North Indian,3.1,₹200 for one,"Wright Town, Jabalpur",3.1,"7,614",3.1,106
+6,Tikka Paaji,"North Indian, Fast Food, Kebab",3.8,₹200 for one,"Civil Lines, Jabalpur",3.8,720,-,0
+7,Munna Hotel,"North Indian, Mughlai",3.2,₹200 for one,"Vijay Nagar, Jabalpur",3.2,743,3.3,8
+8,Crystal,"North Indian, Chinese, Italian, Desserts, Beverages",3.8,₹200 for one,"Rampur, Jabalpur",3.8,"6,598",4.0,218
+9,Hotel Al- Razzaq Family Restaurant,"North Indian, Mughlai, Fast Food, Chinese, Beverages",3.9,₹150 for one,"Napier Town, Jabalpur",3.9,"3,850",3.6,87
+10,Moti Mahal Delux - Tandoori Trail,"North Indian, Mughlai, Chinese, Desserts, Beverages, Rajasthani, Fast Food, Biryani",3.9,₹150 for one,"Napier Town, Jabalpur",3.9,"5,825",4.1,284
+11,Pizza Hut,"Pizza, Fast Food, Desserts, Beverages",3.9,₹150 for one,"Napier Town, Jabalpur",3.9,"8,308",4.2,310
+12,Jawahar Cakes,"Bakery, Fast Food, Chinese, Street Food, Beverages",3.5,₹150 for one,"Ganjipura, Jabalpur",3.5,538,3.1,5
+13,Jumbo Pizza,"Pizza, Fast Food, Beverages",4.0,₹150 for one,"Napier Town, Jabalpur",4.0,"4,927",4.5,292
+14,Jagdish Restaurants,North Indian,3.6,₹150 for one,"Wright Town, Jabalpur",3.6,475,3.6,24
+15,Abhinandan Veg Restaurant,North Indian,4.0,₹150 for one,"Wright Town, Jabalpur",4.0,"3,232",3.4,18
+16,Jawahar Momos King,"Momos, Chinese, Fast Food",3.9,₹150 for one,"Ganjipura, Jabalpur",3.9,635,3.3,22
+17,Nyt Meal,Fast Food,3.7,₹150 for one,"Wright Town, Jabalpur",3.7,"1,239",-,0
+18,Barbecue,"North Indian, Chinese",3.8,₹150 for one,"Hathital, Jabalpur",3.8,"4,720",3.9,105
+19,99 Pancakes,"Waffle, Desserts, Beverages",4.3,₹150 for one,"Hathital, Jabalpur",4.3,"3,058",3.9,86
+20,Apna Cafe,"South Indian, Fast Food",3.2,₹150 for one,"Wright Town, Jabalpur",3.2,"1,802",3.5,60
+21,Gulmohur Restaurant,"North Indian, Chinese, Street Food, Fast Food, Ice Cream, Desserts, Beverages",3.7,₹200 for one,"Ganjipura, Jabalpur",3.7,"1,834",3.6,47
+22,Pride By Samrat - The Kitchen,"North Indian, Chinese, Mughlai, Seafood, Desserts, Beverages",4.0,₹200 for one,"Rampur, Jabalpur",4.0,"2,774",3.0,16
+23,Pait Pooja Home Kitchen,North Indian,4.0,₹200 for one,"Gohalpur, Jabalpur",4.0,194,-,0
+24,Hotel Vijan Palace,"Mughlai, North Indian, Street Food, Chinese, Fast Food",4.0,₹200 for one,"Ganjipura, Jabalpur",4.0,935,-,2
+25,Pangat Restaurant Hotel Shikhar Palace,"North Indian, Chinese, Fast Food, Beverages",4.0,₹200 for one,"Napier Town, Jabalpur",4.0,"2,064",3.7,88
+26,Paratha Express,North Indian,3.8,₹200 for one,"Wright Town, Jabalpur",3.8,156,-,0
+27,Maniram Sweets And Bakers,"Bakery, Mithai, Street Food",3.6,₹200 for one,"Ganjipura, Jabalpur",3.6,117,-,0
+28,Subway,"Healthy Food, Fast Food, Sandwich, Salad, Beverages, Wraps",4.0,₹200 for one,"Napier Town, Jabalpur",4.0,15.8K,4.3,405
+29,The Melting Pot Bistro,"North Indian, Italian, Chinese, Fast Food, Beverages, Shake, Coffee",3.8,₹200 for one,"Wright Town, Jabalpur",3.8,"2,835",3.8,142
+30,Badkul Sweets,"Mithai, Street Food",4.4,₹200 for one,"Vijay Nagar, Jabalpur",4.4,673,-,0
+31,Hyderabad House,"Biryani, North Indian",3.8,₹200 for one,"Wright Town, Jabalpur",3.8,"2,744",4.1,107
+32,J B P Food Zone,"Fast Food, Chinese, South Indian, Street Food, North Indian",4.0,₹200 for one,"Lordganj, Jabalpur",4.0,46,-,0
+33,Birthday Zone,"Bakery, Desserts",3.8,₹250 for one,"Cantt, Jabalpur",3.8,43,-,0
+34,Hotel The Samrat,"North Indian, Mughlai, Chinese, Fast Food, Oriental, Salad, Desserts, Beverages",3.8,₹250 for one,"Napier Town, Jabalpur",3.8,436,3.4,32
+35,Love Bites,North Indian,-,₹250 for one,"Gohalpur, Jabalpur",-,38,-,0
+36,Captain's Fast Food,Chinese,2.7,₹250 for one,"Vijay Nagar, Jabalpur",2.7,197,-,0
+37,Abhijeet Hotel,"Biryani, North Indian",-,₹250 for one,"Gohalpur, Jabalpur",-,19,-,0
+38,Madhushala Restaurant & Bar,"North Indian, Fast Food, Continental, Chinese",-,₹250 for one,"Ganjipura, Jabalpur",-,7,-,0
+39,Shri Siddh Hotel,North Indian,-,₹250 for one,"Vijay Nagar, Jabalpur",-,8,-,0
+40,Mehfil Biryani By Zakir Khan,"Biryani, Mughlai, Lucknowi, Kebab, Hyderabadi",3.6,₹250 for one,"Ghamapur, Jabalpur",3.6,35,-,0
+41,Urban Pangat Restaurant - Hotel Delite Palladium,"North Indian, Chinese, South Indian, Biryani",4.0,₹250 for one,"Civil Lines, Jabalpur",4.0,46,3.6,8
+42,Badal Kabab,"Mughlai, Kebab",4.1,₹250 for one,"Napier Town, Jabalpur",4.1,723,-,0
+43,Aaru Food Junction,Mughlai,-,₹250 for one,"Ghamapur, Jabalpur",-,7,-,0
+44,Brahmin's Kitchen,"Fast Food, South Indian, Street Food, North Indian, Beverages",3.0,₹250 for one,"Ghamapur, Jabalpur",3.0,68,-,0
+45,M/S Aaru Food Junction,"Biryani, Andhra",-,₹100 for one,"Ghamapur, Jabalpur",-,5,-,0
+46,The Belgian Waffle Co.,"Waffle, Pancake, Desserts, Beverages, Ice Cream",4.4,₹100 for one,"Napier Town, Jabalpur",4.4,187,-,2
+47,Popular Fresh Momos 'n' More,"Chinese, Fast Food, Momos, Burger, Beverages, Sichuan",4.1,₹100 for one,"Cantt, Jabalpur",4.1,692,3.1,7
+48,Yo Pizzariya,"Pizza, Fast Food, Beverages, Shake, Desserts",3.7,₹100 for one,"Napier Town, Jabalpur",3.7,99,-,0
+49,Hotel Shree Ras,North Indian,3.9,₹100 for one,"Napier Town, Jabalpur",3.9,"9,831",4.1,167
+50,New Vasu Restaurant,"North Indian, Chinese, Fast Food, Street Food, Beverages",4.0,₹100 for one,"Hathital, Jabalpur",4.0,"4,926",4.0,130
+51,The Tandoor House,"North Indian, Mughlai",4.0,₹100 for one,"Rampur, Jabalpur",4.0,"6,427",-,0
+52,Jharoka Restaurant The Arihant Palace,"North Indian, Mughlai, Chinese, Beverages, Desserts",4.1,₹100 for one,"Napier Town, Jabalpur",4.1,21.2K,4.4,399
+53,Sai Chinese Centre,"Chinese, South Indian, Fast Food, Sichuan",3.7,₹100 for one,"Lordganj, Jabalpur",3.7,"3,356",2.9,17
+54,Behrouz Biryani,"Biryani, Kebab, Hyderabadi, Lucknowi",4.3,₹100 for one,"Ganjipura, Jabalpur",4.3,"2,434",-,0
+55,StarDrinks -Tharra Bar,"Pizza, Sandwich, Burger, Momos, Beverages, Shake, Fast Food",3.5,₹100 for one,"Hathital, Jabalpur",3.5,"1,772",2.5,5
+56,La Pino'z Pizza,"Pizza, Fast Food",4.0,₹100 for one,"Napier Town, Jabalpur",4.0,"7,703",4.0,162
+57,Baskin Robbins,"Ice Cream, Desserts, Beverages",4.4,₹100 for one,"Rampur, Jabalpur",4.4,"2,792",3.8,80
+58,Lakkhe Di Hatti Punjabi Rasoi,"North Indian, Chinese",3.9,₹100 for one,"Hathital, Jabalpur",3.9,993,3.7,63
+59,Wang Chinese Cuisine,"Chinese, Seafood, Sichuan",4.1,₹200 for one,"Hathital, Jabalpur",4.1,"3,649",3.2,66
+60,Ishvit Snacks,"North Indian, South Indian, Street Food",4.6,₹200 for one,"Wright Town, Jabalpur",4.6,"2,635",-,0
+61,The Biryani Life,"Biryani, Kebab, Hyderabadi, Lucknowi",4.1,₹200 for one,"Ganjipura, Jabalpur",4.1,205,-,0
+62,Aroma Restaurant- Hotel Midtown,"North Indian, Chinese, Mughlai, Sandwich, Desserts, Beverages",3.8,₹200 for one,"Napier Town, Jabalpur",3.8,43,2.9,4
+63,Desi Tadka,"North Indian, Chinese",3.8,₹200 for one,"Vijay Nagar, Jabalpur",3.8,95,-,2
+64,Faasos - Wraps & Rolls,"Rolls, Wraps, Fast Food",4.0,₹200 for one,"Ganjipura, Jabalpur",4.0,"1,214",-,0
+65,LunchBox - Meals and Thalis,North Indian,4.2,₹200 for one,"Ganjipura, Jabalpur",4.2,174,-,0
+66,The Good Bowl,"North Indian, Pasta, Italian",4.1,₹200 for one,"Ganjipura, Jabalpur",4.1,234,-,0
+67,Traffic Jam Food Junction,"North Indian, South Indian, Mughlai, Chinese, Fast Food, Continental, Desserts, Beverages",4.0,₹200 for one,"Cantt, Jabalpur",4.0,"5,869",4.1,158
+68,Tava Veg Family Restaurant,"North Indian, Chinese, Fast Food, South Indian, Desserts, Beverages",3.6,₹200 for one,"Napier Town, Jabalpur",3.6,137,3.5,31
+69,The Grill,"North Indian, Chinese, Continental, Mughlai, Kebab, Biryani, Desserts, Sichuan",4.2,₹200 for one,"Rampur, Jabalpur",4.2,"1,457",3.7,46
+70,House Of Blends,"Cafe, Continental, Chinese, North Indian, Sandwich, Fast Food, Desserts, Beverages",4.2,₹200 for one,"Wright Town, Jabalpur",4.2,"1,458",3.8,99
+71,Food Planet,"Fast Food, Street Food, Rajasthani, North Indian, Beverages, Desserts, Shake, Chinese",3.7,₹100 for one,"Ganjipura, Jabalpur",3.7,141,2.8,19
+72,Hotel Roopali Inn,"North Indian, Beverages, Fast Food",3.7,₹100 for one,"Napier Town, Jabalpur",3.7,"3,553",3.9,131
+73,Desi Twist,"Fast Food, Street Food",4.2,₹100 for one,"Civil Lines, Jabalpur",4.2,15.3K,4.6,269
+74,Express Thali By Rajwada,"North Indian, Rajasthani, Mithai",3.9,₹100 for one,"Wright Town, Jabalpur",3.9,"4,567",3.6,46
+75,Maa Shakti Bhojanalya,North Indian,4.0,₹100 for one,"Wright Town, Jabalpur",4.0,"5,778",3.9,138
+76,Hotel BK Castle,"North Indian, Chinese, Desserts, Beverages",3.7,₹100 for one,"Napier Town, Jabalpur",3.7,229,2.8,11
+77,Kulcha Da Culture - By Narendra Dairy,"North Indian, Kebab",3.9,₹100 for one,"Wright Town, Jabalpur",3.9,256,-,1
+78,Sweet Truth - Cake and Desserts,"Desserts, Bakery",3.9,₹100 for one,"Ganjipura, Jabalpur",3.9,196,-,0
+79,Hanuman Lassi & Juice Center,"Beverages, Juices, Shake",3.8,₹100 for one,"Wright Town, Jabalpur",3.8,522,-,0
+80,Bhatia Egg Shop,"Street Food, Fast Food",3.9,₹100 for one,"Khamaria, Jabalpur",3.9,247,-,0
+81,Xtra Calories,"Burger, Sandwich, Chinese, Fast Food, Momos",4.0,₹100 for one,"Ghamapur, Jabalpur",4.0,200,-,0
