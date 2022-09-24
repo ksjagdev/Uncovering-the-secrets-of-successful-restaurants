@@ -71,7 +71,7 @@ for page_tags in all_rest_page_url:
     page_url = rest_homepage_url + page_tags
     driver.get(page_url)
     
-    time.sleep(2)
+    time.sleep(3)
 
     rest_page_soup = bs(driver.page_source, "html.parser")
 
