@@ -34,7 +34,6 @@ homepage_soup = bs(driver.page_source, "html.parser")
 
 rest_names=[]
 cuisines= []
-overall_rating= []
 price_per_person = []
 locality = []
 all_rest_page_url = []
@@ -42,7 +41,6 @@ delivery_rating = []
 delivery_reviews = []
 dining_rating = []
 dining_reviews = []
-
 name_tags = homepage_soup.find_all("h4")
 
 rest_homepage_url = "https://www.zomato.com"
@@ -56,9 +54,6 @@ for rest_name in name_tags[:len(name_tags)-1]:
 
     rest_page_tag = rest_page_tag["href"][:-5] + "reviews"
     all_rest_page_url.append(rest_page_tag)
-
-    rating_tag = rest_name.parent.div.div.div.div.div.div.text
-    overall_rating.append(rating_tag)
 
     price_tag = rest_name.parent.next_sibling.p.next_sibling.text
     price_per_person.append(price_tag)
@@ -98,3 +93,4 @@ restaurants_df = pd.DataFrame({"name": rest_names, "cuisines": cuisines, "overal
 restaurants_df.to_csv("./Dataset/jabalpur_restaurants.csv")
 
 
+    restaurants_df = pd.DataFrame({"name": rest_names, "cuisines": cuisines, "price_per_person": price_per_person, "location": locality, "delivery_rating": delivery_rating, "delivery_reviews": delivery_reviews, "dining_rating": dining_rating, "dining_reviews" : dining_reviews})
