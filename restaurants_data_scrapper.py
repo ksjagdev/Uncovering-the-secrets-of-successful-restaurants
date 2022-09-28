@@ -15,7 +15,7 @@ driver = webdriver.Edge(EdgeChromiumDriverManager().install(), options= options)
 driver.get(homepage_url)
 
 time.sleep(1)  # Suspends the webpage for 1 seconds
-scroll_pause_time = 2  # Time interval between two consecutive scrolls
+scroll_pause_time = 3  # Time interval between two consecutive scrolls
 screen_height = driver.execute_script("return window.screen.height;")  # extract the screen height of the webpage
 i = 1
 
@@ -66,7 +66,7 @@ for page_tags in all_rest_page_url:
     page_url = rest_homepage_url + page_tags
     driver.get(page_url)
     
-    time.sleep(2)
+    time.sleep(3)
 
     rest_page_soup = bs(driver.page_source, "html.parser")
 
@@ -75,40 +75,22 @@ for page_tags in all_rest_page_url:
     location_tag = name_tag[1].parent.next_sibling.div.next_sibling.text
     locality.append(location_tag)
 
-        delivery_rating_tag = name_tag[1].next_sibling.div.next_sibling.next_sibling.div.div.div.div.text
-        delivery_rating.append(delivery_rating_tag)
+    delivery_rating_tag = name_tag[1].next_sibling.div.next_sibling.next_sibling.div.div.div.div.text
+    delivery_rating.append(delivery_rating_tag)
+    
+    delivery_review_tag = name_tag[1].next_sibling.div.next_sibling.next_sibling.div.next_sibling.div.text
+    delivery_reviews.append(delivery_review_tag)
 
-        delivery_review_tag = name_tag[1].next_sibling.div.next_sibling.next_sibling.div.next_sibling.div.text
-        delivery_reviews.append(delivery_review_tag)
+    dining_review_tag = name_tag[1].next_sibling.div.div.next_sibling.div.text
+    dining_reviews.append(dining_review_tag)
 
-        dining_review_tag = name_tag[1].next_sibling.div.div.next_sibling.div.text
-        dining_reviews.append(dining_review_tag)
-
-        dining_rating_tag = name_tag[1].next_sibling.div.div.div.div.div.text
-        dining_rating.append(dining_rating_tag)
-
-    except AttributeError:
-        delivery_rating.append(0)
-        delivery_reviews.append(0)
-        dining_reviews.append(0)
-        dining_rating.append(0)
-
+    dining_rating_tag = name_tag[1].next_sibling.div.div.div.div.div.text
+    dining_rating.append(dining_rating_tag)
 
 driver.close()
-    
-try:
-    
-    restaurants_df = pd.DataFrame({"name": rest_names, "cuisines": cuisines, "price_per_person": price_per_person, "location": locality, "delivery_rating": delivery_rating, "delivery_reviews": delivery_reviews, "dining_rating": dining_rating, "dining_reviews" : dining_reviews})
-    restaurants_df.to_csv("./Dataset/jabalpur_restaurants.csv")
-    print("Data is collected, Happy Analyzing!!!")
-    
-except ValueError:
 
-    print(f"rest_names {len(rest_names)}")
-    print(f"cuisines {len(cuisines)}")
-    print(f"price {len(price_per_person)}")
-    print(f"locality {len(locality)}")
-    print(f"delivery_rating {len(delivery_rating)}")
-    print(f"delivery_reviews {len(delivery_reviews)}")
-    print(f"dining_rating {len(dining_rating)}")
-    print(f"dining_reviews {len(dining_reviews)}")
+restaurants_df = pd.DataFrame({"name": rest_names, "cuisines": cuisines, "overall_rating": overall_rating, "price_per_person": price_per_person, "location": locality, "delivery_rating": delivery_rating, "delivery_reviews": delivery_reviews, "dining_rating": dining_rating, "dining_reviews" : dining_reviews})
+restaurants_df.to_csv("./Dataset/jabalpur_restaurants.csv")
+
+
+    restaurants_df = pd.DataFrame({"name": rest_names, "cuisines": cuisines, "price_per_person": price_per_person, "location": locality, "delivery_rating": delivery_rating, "delivery_reviews": delivery_reviews, "dining_rating": dining_rating, "dining_reviews" : dining_reviews})
