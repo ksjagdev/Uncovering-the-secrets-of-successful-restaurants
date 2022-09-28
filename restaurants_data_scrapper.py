@@ -41,6 +41,7 @@ delivery_rating = []
 delivery_reviews = []
 dining_rating = []
 dining_reviews = []
+timings = []
 name_tags = homepage_soup.find_all("h4")
 
 rest_homepage_url = "https://www.zomato.com"
@@ -80,6 +81,9 @@ for page_tags in all_rest_page_url:
         location_tag = name_tag[1].parent.next_sibling.div.next_sibling.text
         locality.append(location_tag)
 
+        time_tag = name_tag[1].parent.next_sibling.next_sibling.section.span.next_sibling.text
+        timings.append(time_tag)
+
         delivery_rating_tag = name_tag[1].next_sibling.div.next_sibling.next_sibling.div.div.div.div.text
         delivery_rating.append(delivery_rating_tag)
         
@@ -93,6 +97,7 @@ for page_tags in all_rest_page_url:
         dining_rating.append(dining_rating_tag)
     
     except AttributeError:
+        timings.append(None)
         delivery_rating.append(0)
         delivery_reviews.append(0)
         dining_reviews.append(0)
@@ -100,6 +105,6 @@ for page_tags in all_rest_page_url:
 
 driver.close()
 
-restaurants_df = pd.DataFrame({"name": rest_names, "cuisines": cuisines, "price_per_person": price_per_person, "location": locality, "delivery_rating": delivery_rating, "delivery_reviews": delivery_reviews, "dining_rating": dining_rating, "dining_reviews" : dining_reviews})
+restaurants_df = pd.DataFrame({"name": rest_names, "cuisines": cuisines, "price_per_person": price_per_person, "location": locality, "timings" : timings, "delivery_rating": delivery_rating, "delivery_reviews": delivery_reviews, "dining_rating": dining_rating, "dining_reviews" : dining_reviews})
 restaurants_df.to_csv("./Dataset/jabalpur_restaurants.csv")
 
