@@ -75,22 +75,31 @@ for page_tags in all_rest_page_url:
     if len(name_tag) <=1:
         driver.refresh()
 
-    delivery_rating_tag = name_tag[1].next_sibling.div.next_sibling.next_sibling.div.div.div.div.text
-    delivery_rating.append(delivery_rating_tag)
+    try:
+            
+        location_tag = name_tag[1].parent.next_sibling.div.next_sibling.text
+        locality.append(location_tag)
+
+        delivery_rating_tag = name_tag[1].next_sibling.div.next_sibling.next_sibling.div.div.div.div.text
+        delivery_rating.append(delivery_rating_tag)
+        
+        delivery_review_tag = name_tag[1].next_sibling.div.next_sibling.next_sibling.div.next_sibling.div.text
+        delivery_reviews.append(delivery_review_tag)
+
+        dining_review_tag = name_tag[1].next_sibling.div.div.next_sibling.div.text
+        dining_reviews.append(dining_review_tag)
+
+        dining_rating_tag = name_tag[1].next_sibling.div.div.div.div.div.text
+        dining_rating.append(dining_rating_tag)
     
-    delivery_review_tag = name_tag[1].next_sibling.div.next_sibling.next_sibling.div.next_sibling.div.text
-    delivery_reviews.append(delivery_review_tag)
-
-    dining_review_tag = name_tag[1].next_sibling.div.div.next_sibling.div.text
-    dining_reviews.append(dining_review_tag)
-
-    dining_rating_tag = name_tag[1].next_sibling.div.div.div.div.div.text
-    dining_rating.append(dining_rating_tag)
+    except AttributeError:
+        delivery_rating.append(0)
+        delivery_reviews.append(0)
+        dining_reviews.append(0)
+        dining_rating.append(0)
 
 driver.close()
 
-restaurants_df = pd.DataFrame({"name": rest_names, "cuisines": cuisines, "overall_rating": overall_rating, "price_per_person": price_per_person, "location": locality, "delivery_rating": delivery_rating, "delivery_reviews": delivery_reviews, "dining_rating": dining_rating, "dining_reviews" : dining_reviews})
+restaurants_df = pd.DataFrame({"name": rest_names, "cuisines": cuisines, "price_per_person": price_per_person, "location": locality, "delivery_rating": delivery_rating, "delivery_reviews": delivery_reviews, "dining_rating": dining_rating, "dining_reviews" : dining_reviews})
 restaurants_df.to_csv("./Dataset/jabalpur_restaurants.csv")
 
-
-    restaurants_df = pd.DataFrame({"name": rest_names, "cuisines": cuisines, "price_per_person": price_per_person, "location": locality, "delivery_rating": delivery_rating, "delivery_reviews": delivery_reviews, "dining_rating": dining_rating, "dining_reviews" : dining_reviews})
